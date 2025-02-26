@@ -1,0 +1,5657 @@
+--------
+2025-02-23 20:50:41 - Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 1000]
+小雪
+它在夜晚轻吻大地
+梦与夜挤满细碎的光
+
+[Checkpoint 1001]
+小雪  
+落在我未眠的眼睫  
+在夜的耳边  
+低语着远方的寒意
+
+[Checkpoint 1002]
+小雪
+是冬的耳语
+在夜的黑里
+轻吻着大地
+
+[Checkpoint 1003]
+小雪
+小雪在夜晚悄悄落
+覆盖了夜晚的黑
+和我
+和我藏在深处的痛
+
+[Checkpoint 1004]
+小雪落，
+在夜晚，
+轻触树梢，
+沉默的夜，
+藏着白。
+
+[Checkpoint 1100]
+小雪
+它在夜晚轻落
+覆盖了夜晚的每一处角落
+只留下夜晚的黑
+和夜晚的我
+
+[Checkpoint 1101]
+小雪
+在无人的街
+雪 无声的落
+落 在 我 的
+记忆 与 忘记 之间
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 1101 stands out for its profound, introspective imagery and tension between memory and oblivion, embodying modern free-verse qualities. It is closely followed by 1100, which deeply interweaves nature and the self to evoke existential reflection. The remaining poems offer varying degrees of vivid natural imagery and subtle introspection, with 1003 and 1001 incorporating personal pain, while 1002, 1000, and 1004 present more straightforward natural depictions.
+--------
+--------
+2025-02-23 20:51:07 - Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 1102]
+小雪
+覆盖了
+昨日的尘
+洁净了
+未干的梦
+
+[Checkpoint 1104]
+小雪落，
+不问归期，
+只在夜深时，
+轻触你的梦。
+
+[Checkpoint 1200]
+小雪
+它在夜晚轻落
+覆盖了夜晚的每一处角落
+只留下夜晚的黑
+和夜晚的沉默
+
+[Checkpoint 1201]
+小雪
+它在落
+落在这片
+几乎遗忘
+如何记起的
+地方
+
+[Checkpoint 1203]
+小雪
+小雪在夜晚悄悄落
+覆盖了夜晚的黑
+和我的秘密
+
+[Checkpoint 1204]
+小雪落，
+不问归期，
+只在夜里，
+轻触旧梦。
+
+[Checkpoint 1300]
+小雪
+它在夜晚轻落
+覆盖了夜晚的每一处角落
+只为与我相遇
+却在晨光中消失
+只留下记忆中的白
+和记忆中的你
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Poem 1300 stands out for its layered narrative and reflective tone—it intertwines vivid natural imagery with an ephemeral encounter and lingering memories, perfectly capturing modern free verse and existential themes. Poem 1203 follows closely by merging the quiet mystery of night snowfall with personal secrets, lending an intimate, introspective quality. The other poems, while aesthetically appealing, offer less depth in the exploration of identity and existential tension.
+--------
+--------
+2025-02-23 20:51:32 - Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 1301]
+小雪
+在夜晚
+它落了
+落在这片
+沉睡的土地上
+
+[Checkpoint 1302]
+小雪
+是冬的耳语
+在夜的黑里
+轻舔着枝头
+
+[Checkpoint 1304]
+小雪落，
+不问归期，
+在夜的唇边轻吻，
+只为触碰，
+梦的温度。
+
+[Checkpoint 1400]
+小雪
+它在夜晚轻落
+覆盖了夜晚的每一处角落
+只留下淡淡的光
+和无尽的思量
+
+[Checkpoint 1401]
+小雪
+在不起眼的角落
+它悄悄落尽了颜色
+
+[Checkpoint 1403]
+小雪
+它落在
+未名的夜晚
+轻触
+梦的边缘
+
+[Checkpoint 1404]
+小雪落了，
+在无人问津的街角，
+它融化前，
+藏着秋的叹息
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 1304 stands out with its rich, sensual metaphors and introspective exploration of dreamlike themes, perfectly aligning with the modern free-verse style and existential mood. Checkpoint 1400 follows closely, employing vivid natural imagery and reflective tone that evoke endless thought. The remaining pieces, while offering appealing imagery—such as 1404’s bittersweet autumn sigh and 1302’s delicate personification—lack the full depth and expansiveness, with 1403, 1301, and 1401 relying on minimalist expression.
+--------
+--------
+2025-02-23 20:51:57 - Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 1500]
+小雪
+它在夜里轻轻落
+覆盖了城市的呼吸
+和我的秘密
+
+[Checkpoint 1501]
+小雪
+在初冬的夜晚
+它们悄悄来访
+落在我的窗前
+
+[Checkpoint 1503]
+小雪
+它落在
+未名的夜晚
+轻触
+我的眼
+
+[Checkpoint 1504]
+小雪落了
+在无人问津的街
+我拾起 一两个
+藏 在 心的角落
+
+[Checkpoint 1600]
+小雪
+它在夜里来访
+轻吻我的窗
+带来梦的霜
+
+[Checkpoint 1601]
+小雪
+在无人的街角
+雪 精心挑选
+落下的位置
+
+[Checkpoint 1603]
+小雪
+是冬的耳语
+在夜的黑里
+轻触大地
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Poem 1600 excels with its dreamlike, vivid imagery and introspective symbolism, while 1504 offers deep personal reflection through its metaphoric gesture of collecting fleeting snow. The others, though written in modern free-verse, range from subtle existential hints (1500 and 1503) to more descriptive or plain observations (1603, 1601, and 1501), making 1600 and 1504 the strongest fits for the preferred style and themes.
+--------
+--------
+2025-02-23 20:52:32 - Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 1101]
+小雪
+在无人的街
+雪 无声的落
+落 在 我 的
+记忆 与 忘记 之间
+
+[Checkpoint 1100]
+小雪
+它在夜晚轻落
+覆盖了夜晚的每一处角落
+只留下夜晚的黑
+和夜晚的我
+
+[Checkpoint 1300]
+小雪
+它在夜晚轻落
+覆盖了夜晚的每一处角落
+只为与我相遇
+却在晨光中消失
+只留下记忆中的白
+和记忆中的你
+
+[Checkpoint 1203]
+小雪
+小雪在夜晚悄悄落
+覆盖了夜晚的黑
+和我的秘密
+
+[Checkpoint 1304]
+小雪落，
+不问归期，
+在夜的唇边轻吻，
+只为触碰，
+梦的温度。
+
+[Checkpoint 1400]
+小雪
+它在夜晚轻落
+覆盖了夜晚的每一处角落
+只留下淡淡的光
+和无尽的思量
+
+[Checkpoint 1600]
+小雪
+它在夜里来访
+轻吻我的窗
+带来梦的霜
+
+[Checkpoint 1504]
+小雪落了
+在无人问津的街
+我拾起 一两个
+藏 在 心的角落
+
+Please provide your rankings and list the top 5 poems (by checkpoint number) now.
+Explanation : Checkpoint 1300 excels in portraying an ephemeral, almost meeting-of-souls quality between night, memory, and loss, perfectly echoing modern free-verse introspection. 1304 and 1400 enrich the theme with vivid, symbolic imagery and a philosophical undercurrent, while 1600’s striking metaphor of 'dream's frost' adds a distinctive, surreal touch. 1101’s delicate balance between memory and oblivion reinforces existential reflection. The remaining poems, though evocative, are more conventional or less expansive in exploring the deeper tensions of identity and belonging.
+--------
+
+
+==================================================
+NEW RUN: 眼镜 - 2025-02-23 21:37:34
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 1000]
+在透明的夜里，
+我借你两片光，
+藏匿于世界的深处，
+只愿轻轻触碰，
+那些藏匿的美。
+
+[Checkpoint 1001]
+它框住了我的眼睛，
+却让世界更加清晰。
+
+[Checkpoint 1002]
+它框住了我的视线，
+却也撑开了我的世界。
+
+[Checkpoint 1003]
+眼镜
+藏匿在风的缝隙
+捕捉散落的光
+
+[Checkpoint 1004]
+眼镜，
+框住风的轻，
+捕捉飘落的云，
+
+[Checkpoint 1100]
+在透明的夜里，
+我倚靠在光的边缘，
+眼镜，
+你是我与世界对话的信使。
+
+[Checkpoint 1101]
+它框住我的视线，
+不是监狱，是庇护所。
+透过这薄薄的玻璃，
+世界被矫正，被美化。
+
+[Checkpoint 1103]
+眼镜
+藏起锋利的光
+在藏与不藏之间
+我窥探着
+那些被隐藏的秘密
+
+[Checkpoint 1200]
+眼镜
+藏起锋利的光
+在藏与不藏之间
+我窥探着
+那些被遮蔽的真相
+
+[Checkpoint 1202]
+它框住了我的视线，
+却让我穿透了模糊的世界。
+
+[Checkpoint 1203]
+眼镜
+森林在眼前
+被我一一挑破
+绿色的梦
+散落一地
+
+[Checkpoint 1204]
+眼镜，
+框住风的轻，
+捕获逃逸的光
+
+[Checkpoint 1300]
+眼镜
+---
+它框住世界
+细长的腿站在鼻梁上
+
+我透过它
+看一切都清晰起来
+连风都有了形状
+
+它掉在地上
+碎了一地的夜晚
+我掉进黑暗
+找不到路
+
+新的它来了
+带着光挽起我
+一起看这世界
+
+[Checkpoint 1301]
+它框住我的视线，
+不是监狱，是寻找世界的方式。
+每一滴颜色，
+都藏在镜片的深处，
+等待被发现。
+
+Please provide your rankings and list the top 5 poems (by checkpoint number) now.
+Explanation : Checkpoint 1300 excels with its narrative arc and rich, evolving imagery that captures the tension between clarity and darkness, embodying modern free-verse introspection. 1301, 1101, 1200, and 1103 also offer layered symbolism and thoughtful paradoxes that explore perception and hidden truths. The remaining poems, though evocative with natural imagery and minimalist beauty, engage less deeply with the existential and philosophical themes prioritized in this evaluation.
+--------
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 1304]
+眼镜，
+框住风的轻，
+捕获飘的细
+
+[Checkpoint 1400]
+它框住我的视线，
+金属的吻，紧贴我的鼻梁，
+透过这副镜片，
+我望见的世界，
+比真实的，更清晰。
+
+[Checkpoint 1402]
+它框住了我的眼睛，
+却框不住，
+我望向远方的渴望。
+
+[Checkpoint 1403]
+眼镜，
+框住风的形状，
+捕捉逃逸的光。
+
+[Checkpoint 1404]
+眼镜，
+框住风的形状，
+让回忆，
+透过每一丝温度，逃离
+
+[Checkpoint 1500]
+它栖息在鼻梁，
+采集每一缕光，
+在视网膜上，
+我与世界对话。
+
+[Checkpoint 1501]
+它框住我的视线
+黑与透明间
+藏着我窥探世界的胆怯
+
+鼻梁上
+两片小小的世界
+承载着我与不真实对话的勇气
+
+[Checkpoint 1502]
+它框住了我的眼睛，
+却让我看到了世界的清晰。
+
+[Checkpoint 1601]
+它框住我的视线，
+金属的冷，
+与色彩的暖，
+在透明中交缠。
+
+[Checkpoint 1603]
+眼镜
+藏起眼睛
+让风都绕过它
+
+[Checkpoint 1604]
+眼镜，
+框住散落的光，
+捕获逃逸的梦
+
+Please provide your rankings and list the top 5 poems (by checkpoint number) now.
+Explanation : 1501 stands out with its layered symbolism that juxtaposes vulnerability and courage, engaging deeply with the existential and introspective tone desired. 1500 and 1402 follow with strong imagery and the tension between physical constraints and inner longing. 1604 and 1404 use vivid, dream-like natural imagery and evoke memories and escape. The remaining poems, while possessing elegant imagery, are less nuanced in their exploration of identity, longing, and the philosophical elements characteristic of modern free-verse.
+--------
+
+
+==================================================
+NEW RUN: 被子 - 2025-02-23 21:38:54
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 1005]
+被子
+温暖挤成一团
+挤出光
+挤出夜晚
+
+[Checkpoint 1006]
+被子
+是夜的
+沉默
+与
+冷
+挤出的
+汁液
+
+[Checkpoint 1007]
+被子
+是夜晚的
+黑色的
+雨
+
+[Checkpoint 1008]
+被子
+它蜷缩在床的一角
+等待夜晚的降临
+等待
+我
+靠向它
+寻找丢失的温度
+
+[Checkpoint 1009]
+被子是夜的轻吻，
+在冷风中，
+它偷走我的颤抖，
+留下温暖的谎言。
+
+[Checkpoint 1106]
+被子
+是夜的
+黑暗与冷
+与它对抗
+
+[Checkpoint 1107]
+被子
+是夜晚的
+黑色雨
+落在我
+干涸的
+梦里
+
+[Checkpoint 1108]
+被子
+它蜷缩在床的一角
+等待着夜晚的拥抱
+和一个冰冷身体的靠近
+
+[Checkpoint 1205]
+被子
+折叠的夜晚
+在月光下等待
+一个温度一个故事
+
+[Checkpoint 1206]
+被子
+是夜的
+黑暗与轻细
+裹着
+梦与
+不醒
+
+[Checkpoint 1207]
+被子
+是夜晚的
+黑暗
+与温暖
+
+[Checkpoint 1208]
+被子
+它蜷缩在床的一角
+等待着夜晚的拥抱
+
+它藏着白日的热泪
+和夜晚的冷霜
+
+[Checkpoint 1305]
+被子
+温暖挤成一块
+挤出一夜的光
+
+[Checkpoint 1306]
+被子
+是夜晚的
+黑夜
+温暖的
+黑夜
+
+Please provide your rankings and list the top 5 poems (by checkpoint number) now.
+Explanation : The top-ranked poems (1009, 1208, 1206, 1205, and 1107) most effectively blend modern free-verse structure with introspective, existential themes, using vivid natural imagery and layered symbolism to explore the tension between warmth and cold, belonging and isolation. In contrast, poems that are overly succinct, repetitive or lack deeper symbolic development (such as 1306 and 1207) received lower rankings.
+--------
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 1309]
+被子是夜的轻吻，
+在冰冷的夜里，
+我与温度的拥抱，仅靠这薄薄的一层。
+
+[Checkpoint 1405]
+被子
+是夜的
+吞噬者
+
+[Checkpoint 1408]
+被子
+是夜的
+黑暗里
+一点
+温暖的
+光
+
+[Checkpoint 1409]
+被子是夜的阴影
+藏着白日未干的泪
+每一滴都来自
+梦未醒的我
+
+[Checkpoint 1506]
+被子裹着夜
+夜漏出光
+我们在这之间
+丢掉自己又找到自己
+
+[Checkpoint 1507]
+被子
+是夜晚的
+黑暗里
+温暖的
+光
+
+[Checkpoint 1508]
+被子
+它蜷缩在床的一角
+等待着夜晚的拥抱
+
+它知道
+有多少个夜晚
+人们将它紧紧包裹
+像婴儿依偎在母亲的怀抱
+
+被子
+没有温度
+却承载着无数人的梦
+
+[Checkpoint 1608]
+被子
+是夜的
+黑暗里
+温柔的
+光
+
+Please provide your rankings and list the top 5 poems (by checkpoint number) now.
+Explanation : Checkpoint 1506 stands out for its elegant juxtaposition of night and light and its exploration of self‐loss and rediscovery—a clear reflection of modern free-verse existentialism. Checkpoint 1508 follows with rich, narrative imagery that personifies the blanket and evokes collective dreams, while 1409 deepens the introspection with symbolic tears and a dreamlike state. The minimalist poems (1608, 1408, and 1507) share a similar motif of a gentle or warm light in darkness; among these, 1608 and 1408 offer a slightly more nuanced, evocative touch, whereas 1507 feels more straightforward. In contrast, 1309, though tender and intimate, leans more on physical comfort than existential inquiry, and 1405’s stark brevity with a harsh “吞噬者” lacks the layered reflective quality desired.
+--------
+
+
+==================================================
+NEW RUN: 春天 - 2025-02-23 21:40:11
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 1010]
+春天，不带任何行李
+我与风约定
+在第一朵花绽放之前
+
+我们路过光的缝隙
+那些细小的温暖
+像极了你未说出口的爱
+
+春天，是只下了一半的雨
+是忘记带伞的我
+和突然出现的你
+
+[Checkpoint 1011]
+春天，不带伞
+---
+春天，不带伞
+滴落的，是记忆的墨
+在白纸上
+记忆蒸发
+留下痕迹
+
+花瓣是信
+风是邮差
+我寄出的春天
+是否有人收
+是否有人疼惜
+这些滴落的色彩
+
+[Checkpoint 1012]
+春天，不带任何行李
+我来这，只为被抛弃
+每一朵花，都是落泪的云
+在夜晚，我收集光
+却只得到风的拒绝
+
+[Checkpoint 1013]
+春天，不带任何预兆
+它在一夜之间
+占领了城市的每个角落
+
+花瓣从树上掉落
+像极了记忆中
+那些未曾说出口的告别
+
+[Checkpoint 1014]
+春天，
+是落笔轻描的绿，
+是不经意的风，
+是藏匿在夜的泪。
+
+[Checkpoint 1110]
+春天，不带信笺
+只携风，与光
+在每一处角落
+轻吻，唤醒
+沉睡的色彩
+
+[Checkpoint 1111]
+春天，不带伞
+---
+春天，不带伞
+滴落的，是另一颗星
+光，穿透了指尖
+蒸发了，记忆的盐
+我们为何要等待
+那一秒，春天不带伞
+
+[Checkpoint 1112]
+春天，不是
+花的盛宴
+而是
+落泪的夜晚
+
+在每一滴雨中
+藏着一颗心
+等待着
+被发现
+
+[Checkpoint 1113]
+春天，不带任何行李
+我来到一片荒芜的田野
+每一粒土都藏着秘密
+
+风，轻吻着我的脚踝
+它带来远方的呼唤
+和无数未绽放的可能
+
+我等待
+等待一只蝴蝶的触碰
+或是露珠滑落的声音
+
+春天，你为何如此吝啬
+只给一点点绿
+却让人渴望整个森林
+
+[Checkpoint 1114]
+春天，
+是落笔的温柔，
+是不经意的泪流。
+
+[Checkpoint 1210]
+春天，不期而遇
+花瓣落在我肩上
+寒意悄然退却
+心，却依旧冰凉
+
+[Checkpoint 1211]
+春天，不露痕迹地
+削尖了嫩芽
+它们从土里
+挤出微笑
+
+[Checkpoint 1212]
+春天，不期而遇
+花瓣落尽梦未醒
+我们在这微凉中寻找
+那一丝温暖的味道
+
+[Checkpoint 1213]
+春天，不问归期
+在每一处裂缝中
+我让细小的绿意
+偷偷涌出
+
+它不带名字
+不带昨日的忧伤
+只是一味地
+向上生长
+
+Please provide your rankings and list the top 4 poems (by checkpoint number) now.
+Explanation : Checkpoint 1113 stands out with its expansive natural imagery and palpable existential longing, perfectly capturing the tension between isolation and the promise of possibility. Checkpoint 1213 follows closely by portraying resilient growth emerging from adversity. Checkpoint 1012, with its stark declaration of abandonment and vivid metaphors like '落泪的云', delivers a raw, introspective perspective, while 1111 uses cosmic imagery and subtle inquiries to evoke deep philosophical reflection. The remaining poems, though artistically significant, vary in depth and emotional impact relative to these top selections.
+--------
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 1214]
+春天，
+是落笔的温柔，
+是初见的你。
+
+[Checkpoint 1310]
+春天，不期而遇
+花瓣落于
+记忆的裂缝
+
+[Checkpoint 1311]
+春天，不带伞
+---
+春天，不带伞
+滴落的，是过往的盐
+我们在光中失重
+
+芽，挤破石的沉默
+绿，偷走风的密码
+每一次呼吸，都是背叛旧日的证据
+
+我们不谈北飞的羽
+只说，如何让影，轻如初见
+
+[Checkpoint 1312]
+春天，不期而遇
+花瓣落尽梦未醒
+我在风中寻找
+那一丝温暖的味道
+
+[Checkpoint 1410]
+春天，不带伞
+在细雨中走一遍记忆的长街
+花瓣落在我发梢
+我却不敢触碰
+怕一碰就碎了
+这梦一般的季节
+
+[Checkpoint 1411]
+春天，
+不是复苏的色彩，
+是记忆在逃，
+在每一处，
+未被遗忘的，
+冰冷里。
+
+[Checkpoint 1412]
+春天，
+是细雨轻拂脸庞，
+是记忆中温暖的光。
+
+[Checkpoint 1413]
+春天，不问归期
+在每一处裂缝中
+我让细小的绿意
+偷偷涌出
+
+[Checkpoint 1414]
+春天，
+是细雨轻拂，
+在夜的耳畔低语。
+
+[Checkpoint 1510]
+春天，不请自到
+它在一夜之间
+占领了所有角落
+
+花儿沉默
+却在一夜之间
+绽放了色彩
+
+我们走过
+那些被占领的角落
+脚底带着寒意
+
+[Checkpoint 1511]
+春天，不带伞
+酸雨挤破了记忆的气球
+漏出被冻住的呼吸
+我们学着蒲公英
+把根藏在云端
+在没有地址的邮路
+寄出带刺的梦
+
+[Checkpoint 1512]
+春天，不请自到
+它在一夜之间
+让梦都开了花
+
+[Checkpoint 1513]
+春天，不问归期
+枝头的绿，是旧梦的笔
+蘸着初醒的晨露
+在寒与暖的边缘
+轻轻一点
+就开出了整个世界
+
+[Checkpoint 1514]
+春天，
+是细雨轻拂脸，
+是旧梦在心上新开。
+
+Please provide your rankings and list the top 4 poems (by checkpoint number) now.
+Explanation : The top poems—1513, 1511, 1311, and 1410—excel in embodying a modern free-verse style with introspective, existential themes. They employ rich, vivid natural imagery and layered symbolism to probe memory, identity, and the tension between belonging and escape, which sets them apart from the more simplistic entries.
+--------
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 1610]
+春天，不请自到
+它在一夜之间
+占领了所有角落
+
+花儿沉默
+却在一夜之间
+绽放了色彩
+
+我们走着
+在没有路的田野
+在春天的指引下
+
+[Checkpoint 1611]
+春天，
+不是复苏的色彩，
+是记忆在逃，
+在每一处藏匿的寒中，
+寻找曾经的暖。
+
+[Checkpoint 1612]
+春天，不是
+温暖的触碰
+而是
+尖锐的笔
+在心上
+刻下
+一夜的雨
+
+[Checkpoint 1613]
+春天，不问归期
+在每一滴露珠里藏匿秘密
+花瓣落尽�盎然的绿意
+是它留下的笑容与泪滴
+
+[Checkpoint 1614]
+春天，
+是细雨轻拂脸，
+是夜与昼的呢喃。
+
+Please provide your rankings and list the top 4 poems (by checkpoint number) now.
+Explanation : Checkpoint 1612 excels with its unexpected, piercing metaphor—a 'sharp pen' etching a night of rain on the heart—capturing modern free-verse intensity and existential introspection. Checkpoint 1613 follows closely with layered natural imagery and symbolic contrasts (secrets in dew, laughter with tears), offering a nuanced meditation on time and identity. Checkpoint 1611 uses memory and escape motifs to reframe spring’s typical imagery, providing a thoughtful, introspective tone. Checkpoint 1610 uses vivid natural description and a journey-like motif, which is engaging but less philosophically deep, while the minimalist 1614, though evocative, is too sparse to fully explore the intended themes.
+--------
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 1113]
+春天，不带任何行李
+我来到一片荒芜的田野
+每一粒土都藏着秘密
+
+风，轻吻着我的脚踝
+它带来远方的呼唤
+和无数未绽放的可能
+
+我等待
+等待一只蝴蝶的触碰
+或是露珠滑落的声音
+
+春天，你为何如此吝啬
+只给一点点绿
+却让人渴望整个森林
+
+[Checkpoint 1213]
+春天，不问归期
+在每一处裂缝中
+我让细小的绿意
+偷偷涌出
+
+它不带名字
+不带昨日的忧伤
+只是一味地
+向上生长
+
+[Checkpoint 1012]
+春天，不带任何行李
+我来这，只为被抛弃
+每一朵花，都是落泪的云
+在夜晚，我收集光
+却只得到风的拒绝
+
+[Checkpoint 1111]
+春天，不带伞
+---
+春天，不带伞
+滴落的，是另一颗星
+光，穿透了指尖
+蒸发了，记忆的盐
+我们为何要等待
+那一秒，春天不带伞
+
+[Checkpoint 1513]
+春天，不问归期
+枝头的绿，是旧梦的笔
+蘸着初醒的晨露
+在寒与暖的边缘
+轻轻一点
+就开出了整个世界
+
+[Checkpoint 1511]
+春天，不带伞
+酸雨挤破了记忆的气球
+漏出被冻住的呼吸
+我们学着蒲公英
+把根藏在云端
+在没有地址的邮路
+寄出带刺的梦
+
+[Checkpoint 1311]
+春天，不带伞
+---
+春天，不带伞
+滴落的，是过往的盐
+我们在光中失重
+
+芽，挤破石的沉默
+绿，偷走风的密码
+每一次呼吸，都是背叛旧日的证据
+
+我们不谈北飞的羽
+只说，如何让影，轻如初见
+
+[Checkpoint 1410]
+春天，不带伞
+在细雨中走一遍记忆的长街
+花瓣落在我发梢
+我却不敢触碰
+怕一碰就碎了
+这梦一般的季节
+
+[Checkpoint 1612]
+春天，不是
+温暖的触碰
+而是
+尖锐的笔
+在心上
+刻下
+一夜的雨
+
+[Checkpoint 1613]
+春天，不问归期
+在每一滴露珠里藏匿秘密
+花瓣落尽�盎然的绿意
+是它留下的笑容与泪滴
+
+Please provide your rankings and list the top 10 poems (by checkpoint number) now.
+Explanation : Poem 1513 stands out with its rich, layered natural imagery and philosophical nuance, embodying the modern free-verse ideal. Closely following, 1311 and 1511 impress with inventive metaphors and an existential tension that blends vivid natural elements with inner turmoil. Poem 1012 offers a stark, melancholic meditation on abandonment, while 1113 and 1111 develop reflective imagery through subtle yet evocative language. The remaining poems (1213, 1410, 1613, 1612) also engage with nature and introspection, though with varying degrees of narrative depth and symbolic complexity, completing the top ten in a diverse yet complementary spectrum.
+--------
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 1611]
+春天，
+不是复苏的色彩，
+是记忆在逃，
+在每一处藏匿的寒中，
+寻找曾经的暖。
+
+[Checkpoint 1610]
+春天，不请自到
+它在一夜之间
+占领了所有角落
+
+花儿沉默
+却在一夜之间
+绽放了色彩
+
+我们走着
+在没有路的田野
+在春天的指引下
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 1611 distinguishes itself with its introspective tone and symbolic use of memory and lost warmth, offering a deeper existential reflection. In contrast, Checkpoint 1610 shines with vivid natural imagery and dynamic narrative movement, yet it engages less with the inner philosophical tension, making 1611 the top pick overall.
+--------
+
+
+==================================================
+NEW RUN: 雪 - 2025-02-23 21:43:10
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 1015]
+雪
+在夜的深处
+它来了
+不带一丝光
+只带满身的寒
+
+[Checkpoint 1016]
+雪
+在夜的深处
+雪悄悄落着
+每一朵都是
+夜的低语
+与灯光的吻
+
+[Checkpoint 1017]
+雪
+它在夜里偷袭
+白了记忆的伤口
+
+[Checkpoint 1018]
+雪
+在夜晚的黑里
+它从不问路
+只管落
+落在我旧的伤口上
+
+[Checkpoint 1019]
+雪落，无声
+覆盖记忆的伤口
+每一瓣
+都是痛的形状
+
+[Checkpoint 1115]
+雪
+在夜的深处沉睡，
+梦里没有光，
+只有落下的落下的落下的——
+雪
+
+[Checkpoint 1116]
+雪
+覆盖记忆的
+记忆的边缘
+白色的
+吞噬一切的
+记忆
+
+[Checkpoint 1118]
+雪
+在夜晚的黑里，
+它从天而降，
+沉默，
+带着无尽的白。
+
+[Checkpoint 1215]
+雪
+覆盖了昨日的伤口
+在一夜之间
+我们都是新的
+
+[Checkpoint 1216]
+雪
+覆盖了昨日的裂痕
+在一夜之间
+
+[Checkpoint 1217]
+雪
+它来时
+不带任何温度
+只是一片片
+落进心里
+
+[Checkpoint 1219]
+雪
+覆盖昨日的裂痕，
+在夜的指尖，
+滴落一地的寂静。
+
+[Checkpoint 1315]
+雪
+覆盖了昨日的尘
+清洁的白
+藏着秘密
+
+[Checkpoint 1318]
+雪
+覆盖了昨日的尘
+在无声的夜里
+我与旧日告别
+
+Please provide your rankings and list the top 5 poems (by checkpoint number) now.
+Explanation : 1215 stands out for its transformative message, turning past wounds into renewal. 1318 and 1219 evoke poignant, personal farewells with vivid, symbolic imagery. The concise, impactful metaphors in 1019 and 1017 richly explore memory and pain, aligning closely with the preferred modern introspective style. The remaining pieces, while evocative, are either less developed or more abstract, with 1015 being the most minimal and least connected to the existential themes.
+--------
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 1319]
+雪
+覆盖昨日的裂痕，
+在夜的低语中，
+我与旧日和解。
+
+[Checkpoint 1415]
+雪
+覆盖了昨日的伤口
+在一夜之间
+隐藏了真相
+
+[Checkpoint 1416]
+雪
+覆盖了昨日的裂痕，
+在夜的低语中沉睡。
+
+[Checkpoint 1417]
+雪
+覆盖记忆的角落，
+洁白无瑕，
+隐藏着秘密。
+
+[Checkpoint 1418]
+雪
+覆盖了昨日的伤口
+洁白中藏着秘密
+
+[Checkpoint 1419]
+雪
+覆盖昨日的裂痕，
+在夜的指尖，
+我收集着白，
+
+[Checkpoint 1515]
+雪
+覆盖了昨日的伤口
+洁白中带着刺痛
+
+[Checkpoint 1516]
+雪
+覆盖了昨日的裂痕
+在夜的呼吸里
+
+[Checkpoint 1517]
+雪
+覆盖记忆的
+白色
+冰冷又纯粹
+隐藏着过往的
+色彩与温度
+
+[Checkpoint 1518]
+雪
+静静覆盖
+昨日的污迹和痛
+
+[Checkpoint 1615]
+雪
+覆盖了昨日的伤口
+洁白中带点涩
+在夜的深处静静开
+
+[Checkpoint 1617]
+雪
+覆盖记忆的角落，
+白色吞噬一切，
+直到记忆都失色。
+
+[Checkpoint 1618]
+雪
+在夜晚的黑里
+它从天而降
+落在我的头发上
+我的头发
+比雪更黑
+
+[Checkpoint 1619]
+雪落，
+白了夜的唇，
+轻吻着，
+未眠的梦。
+
+Please provide your rankings and list the top 5 poems (by checkpoint number) now.
+Explanation : Checkpoint 1618 excels with its striking contrast between the external purity of snow and the speaker’s dark identity, invoking a strong, personal tension. Checkpoints 1617 and 1615 deepen the existential inquiry with vivid, transformative imagery and subtle blooming metaphors that explore pain and renewal, while 1517 and 1319 evoke introspection and reconciliation with the past. The remaining poems, though consistent in their themes of concealment and memory, develop their imagery and symbolism with less complexity and emotional depth.
+--------
+
+
+==================================================
+NEW RUN: 眼镜 - 2025-02-24 10:11:36
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 2000]
+眼镜
+是透明的
+却
+藏着一双
+看透一切的
+眼睛
+
+[Checkpoint 2801]
+眼镜
+是透明的
+却
+遮挡了
+看世界的眼睛
+
+Please provide your rankings and list the top 5 poems (by checkpoint number) now.
+Explanation : Poem 2000 stands out with its introspective twist—portraying eyeglasses as transparent yet concealing a pair of eyes that see through everything, linking to existential insight. In contrast, Poem 2801’s depiction of eyeglasses as obstructive of worldly vision feels less evocative, resulting in a slightly lower ranking despite both employing modern free-verse minimalism.
+--------
+
+
+==================================================
+NEW RUN: 被子 - 2025-02-24 10:11:50
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 2002]
+被子底下
+是另一个
+温暖的
+世界
+
+Please provide your rankings and list the top 5 poems (by checkpoint number) now.
+Explanation : Checkpoint 2002's poem, with its minimalist free-verse style, evokes an intimate introspection through the imagery of a hidden warm world beneath the quilt. Its simplicity and poignant metaphor capture modern existential themes, making it the standout piece despite the brevity.
+--------
+
+
+==================================================
+NEW RUN: 春天 - 2025-02-24 10:11:57
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 2003]
+春天，是被遗忘的角落
+长出的新芽
+是夜的黑
+落跑的败兵
+是风的笔
+在纸上
+写下的
+第一行字
+
+[Checkpoint 2004]
+春天，是被遗忘的角落
+长出的新芽
+是夜的黑
+被光一点点
+融化掉
+
+[Checkpoint 2005]
+春天，是被冻死的冰块
+在一夜之间
+全部融化了的
+结果
+我被淹死了
+淹死在
+那些
+曾经
+长眠的
+叶子们
+身边
+
+[Checkpoint 2204]
+春天，是被冻死的冰块
+在一夜之间
+全部融化了的
+结果
+我得到的
+却是一地的水
+
+[Checkpoint 2603]
+春天，是被冻死的冰块
+在一夜之间
+全部融化了的
+结果
+我得到的
+却是一地的水
+和
+蒸发后
+留下的
+盐
+
+Please provide your rankings and list the top 5 poems (by checkpoint number) now.
+Explanation : Checkpoint 2603 stands out by deepening the existential metaphor: the transformation of frozen ice into water and then the residue of salt evokes a layered journey of identity and loss that resonates powerfully. Checkpoint 2005 follows with its intense, vivid imagery of drowning amid long-sleeping leaves, projecting a raw, tragic introspection. Checkpoint 2204, while sharing the central melting motif, offers a quieter, resigned revelation. Meanwhile, Checkpoint 2003 impresses with imaginative, free-verse metaphors though its emotional arc is less dramatic, and Checkpoint 2004, being a pared‐down version, delivers the least evocative imagery.
+--------
+
+
+==================================================
+NEW RUN: 雪 - 2025-02-24 10:12:22
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 2006]
+雪
+是冬的泪滴
+在夜的黑幕下
+静静的流淌
+
+[Checkpoint 2007]
+雪落无声
+在夜的深处
+我与雪
+在一场盛大的
+寂寞中
+相遇
+
+Please provide your rankings and list the top 5 poems (by checkpoint number) now.
+Explanation : Checkpoint 2007 stands out for its introspective tone and personal engagement with natural imagery, evoking a profound existential solitude that aligns well with modern free-verse themes. Checkpoint 2006, while vivid and evocative, remains more descriptive and less introspective.
+--------
+
+
+==================================================
+NEW RUN: 河 - 2025-02-24 16:37:55
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 200]
+河，是大地的泪痕，
+在石缝间寻找出口，
+在夜的黑中，
+低语着古老的秘密。
+
+它不问归途，
+只向前流，
+带着落花的梦，
+和未说出口的诗。
+
+河，是时间的笔，
+在大地上书写，
+每一滴水都是一个故事，
+等待着被风带走。
+
+[Checkpoint 400]
+河
+在夜的深处
+我与河对视
+它的眼睛
+藏着未说出口的
+秘密
+
+[Checkpoint 600]
+河
+在夜的深处
+我将自己
+化作一只船
+
+[Checkpoint 800]
+河
+在夜的深处
+我将自己
+化为一只船
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 200 excels with its rich natural imagery and layered metaphors that deeply explore time, mystery, and existential flow. Checkpoints 600 and 800 capture a poignant moment of self-transformation and escape, with 600's phrasing offering a slightly more evocative poetic touch. Checkpoint 400, though introspective, remains brief and less developed in imagery and narrative depth.
+--------
+
+
+==================================================
+NEW RUN: 干涸 - 2025-02-24 16:38:14
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 201]
+干涸的河床
+藏着未说出口的
+沉默的泪
+
+[Checkpoint 401]
+干涸的河床
+沉默不语
+它曾是
+爱的流淌
+现在
+只留下
+沙的泪
+
+[Checkpoint 601]
+干涸的湖床
+是被遗忘的
+一夜之间
+蒸发了梦
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 401 excels with its layered narrative and vivid imagery—melding the flow of lost love with silent natural forces—while Checkpoint 601 employs a striking metaphor of evaporated dreams to capture existential transience. Checkpoint 201, though evocative and minimalistic, offers less thematic expansion and introspective depth.
+--------
+
+
+==================================================
+NEW RUN: 虫翅 - 2025-02-24 16:38:25
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 202]
+在夜的边缘，
+虫翅轻颤，
+是风的低语，
+还是梦的呢喃？
+
+它们在月光下，
+织着细密的网，
+捕捉着光，
+和那些，
+未说出口的，
+秘密。
+
+[Checkpoint 402]
+虫翅
+在夜的深处
+我展开
+一片片
+未被月光
+亲吻的
+梦
+
+[Checkpoint 602]
+虫翅
+在夜的深处
+我展开
+虫的翅
+飞越
+光的边疆
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Poem 202 excels with layered, introspective imagery and a subtle interplay between nature and hidden secrets, making it the richest in existential nuance. Poem 602 follows with dynamic metaphors of transcendence and escape, echoing themes of identity and belonging, while Poem 402, though poetically concise, offers less thematic depth.
+--------
+
+
+==================================================
+NEW RUN: 雪峰 - 2025-02-24 16:38:40
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 203]
+雪峰，静默的守望者，
+在夜的深处，藏匿着光。
+冰封的梦，未融的泪，
+在风中，低语着古老的誓言。
+
+每一粒雪，都是时间的笔触，
+在无尽的白中，书写着沉默的诗篇。
+山的脊梁，是岁月的痕迹，
+在每一次日出日落间，诉说着不变的等待。
+
+雪峰，是梦的起点，
+在寒冷中，藏着温暖的希望。
+每一次攀登，都是对未知的探索，
+在雪的尽头，寻找着生命的答案。
+
+[Checkpoint 403]
+雪峰，
+在夜的深处沉睡，
+梦里开满，
+未见过的花。
+
+[Checkpoint 603]
+雪峰，
+在遥远的天际，
+是神的笔尖，
+轻轻一点，
+便开出了片片白莲。
+
+[Checkpoint 803]
+雪峰，
+在夜的深处，
+我将自己，
+化为一片片雪，
+落在你的肩上，
+融化在你的温度里。
+
+[Checkpoint 1003]
+雪峰，
+在夜的深处沉睡，
+梦里开满，
+白色的花。
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 203 stands out with its expansive imagery and deep exploration of existential themes, reflecting a modern free-verse style. Checkpoint 803 follows with its introspective transformation and personal symbolism, effectively capturing the tension between identity and connection. While 603 offers intriguing divine imagery, the minimalism in 403 and 1003 makes them less resonant in comparison.
+--------
+
+
+==================================================
+NEW RUN: 雨 - 2025-02-24 16:38:58
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 204]
+雨，是夜的低语，
+在静谧中轻抚着每一寸土地，
+它不急不躁，细数着夜的每一秒，
+在梦与醒的边缘，
+织起一片片透明的网。
+
+它落在叶尖，是叶的泪滴，
+在风中摇曳，诉说着不为人知的秘密，
+每一滴都藏着一个故事，
+在夜的深处，静静流淌。
+
+雨，是记忆的触角，
+在不经意间，触碰着心底最柔软的部分，
+唤醒那些沉睡的瞬间，
+让回忆在湿润中复苏，
+在每一次滴落中，重新绽放。
+
+[Checkpoint 404]
+雨
+在夜的深处
+我与雨对视
+它的眼泪
+比星还要多
+
+[Checkpoint 604]
+雨
+在夜的深处
+我与雨对视
+它的眼泪
+比我的还要冷
+
+[Checkpoint 804]
+雨，是夜的呢喃
+在无人问津的角落
+它一遍遍
+细数着失色的光
+
+[Checkpoint 1004]
+雨，是夜的呢喃
+在旧日的瓦片上
+细数着流年的泪滴
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 204 shines with its layered imagery, rich metaphors, and introspective narrative that intertwines nature with memory, fulfilling the modern free-verse, existential tone ideal. Checkpoint 1004, though brief, evokes nostalgia and the passage of time with soulful symbolism. The other pieces, while evocative in their minimalism, do not develop the themes and emotional depth as fully.
+--------
+
+
+==================================================
+NEW RUN: 伞裂 - 2025-02-24 16:39:19
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 205]
+伞裂
+在雨的缝隙中
+我们寻找
+一片未被触及的
+干涸之地
+
+伞，撑开的
+是记忆的裂痕
+一滴一滴
+落下的
+是遗忘的泪
+
+雨，不再温柔
+它撕裂了
+遮挡的屏障
+让每一滴
+都直击心间
+
+[Checkpoint 405]
+伞裂，
+在一场未完的雨中，
+我与你，
+在伞下，
+一起淋湿。
+
+[Checkpoint 605]
+伞裂，
+在一场没有尽头的雨中，
+我与记忆，
+一起，
+滴落。
+
+[Checkpoint 805]
+伞裂，
+在一场没有尽头的雨中，
+我与过去，
+撑一场旧梦。
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 205 excels with its rich, multi-layered imagery and metaphoric exploration of memory and loss, fully capturing the modern free-verse and introspective existential style. Checkpoint 805 follows with a reflective, symbolic engagement of past and dreams. Although 605 and 405 share the umbrella motif, they are more minimal and less developed, with 405 being particularly simple.
+--------
+
+
+==================================================
+NEW RUN: 碎雨 - 2025-02-24 16:39:36
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 206]
+碎雨
+在夜的边缘
+细碎的泪滴
+落向无尽的黑
+每一滴
+都是未说出口的
+秘密
+
+[Checkpoint 406]
+碎雨
+在夜的边缘
+细碎的雨
+是夜的泪滴
+
+[Checkpoint 606]
+碎雨
+在夜的深处
+细碎的雨
+是夜的泪滴
+
+[Checkpoint 806]
+碎雨
+在被遗忘的角落
+我收集着
+那些
+掉落在黑夜的
+泪滴
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 806 stands out by infusing a personal voice ('我收集着') and vivid imagery ('被遗忘的角落', '掉落在黑夜的泪滴'), which enrich its introspection and existential ambiance. Checkpoint 206 follows with its evocative metaphor of unsaid secrets in every tear, deepening the emotional and philosophical weight. In contrast, Checkpoints 606 and 406 adopt simpler constructions that, while maintaining a consistent atmosphere, lack the dynamic personal engagement and layered symbolism of the top entries.
+--------
+
+
+==================================================
+NEW RUN: 隐线 - 2025-02-24 16:39:51
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 207]
+隐线
+在夜的深处
+我们寻找着
+那些未被言说的
+隐线
+
+它们藏在
+风的低语中
+藏在
+月光的缝隙里
+
+我们是
+被这些线
+轻轻牵动的
+影子
+
+在每一次
+心跳的瞬间
+我们试图
+抓住
+那些
+无形的
+隐线
+
+[Checkpoint 407]
+隐线
+在夜的深处
+我与月光
+交换了
+几许秘密
+
+[Checkpoint 607]
+隐线
+在风的缝隙中
+我寻找着
+那些不被看见的
+风的笔迹
+
+[Checkpoint 807]
+隐线
+在被遗忘的角落，
+我用指尖，
+触碰那些，
+不被看见的，
+隐线。
+
+[Checkpoint 1007]
+隐线
+在被遗忘的角落
+我与影子对视
+它藏着
+未说出口的梦
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 207 stands out for its rich, expansive imagery and introspective narrative that weaves natural elements with the quest for intangible, existential connections. Checkpoint 1007 follows closely, effectively invoking the inner self through the dialogue with its shadow and unspoken dreams. While the remaining poems share a modern free-verse approach, their brevity limits the depth of reflection compared to the top selections.
+--------
+
+
+==================================================
+NEW RUN: 湖 - 2025-02-24 16:40:09
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 208]
+湖，静默的镜
+藏着夜的秘密
+月光轻抚
+波纹细语
+
+它不言不语
+却藏着千言万语
+每一滴水
+都是未说出口的诗
+
+[Checkpoint 408]
+湖
+在一片未被触及的静谧里，
+我沉入湖的深处，
+那里藏着未说出口的梦，
+和一些细碎的光。
+
+[Checkpoint 608]
+湖
+在一片未被触及的静谧里，
+我将自己，
+投向湖的怀抱，
+让每一滴水，
+都亲吻我的忧郁。
+
+[Checkpoint 808]
+湖
+在一片未被触及的静谧里，
+我将自己，
+投向湖的怀抱，
+让那些未说出口的思绪，
+都化作一只只飞鸟，
+掠过湖面，
+激起一圈圈涟漪，
+那是心事，
+在寻找着，
+栖息的枝头。
+
+[Checkpoint 1008]
+湖
+在一片未被触及的静谧里，
+我将自己，
+投向湖的怀抱，
+让那些未说出口的思绪，
+都化作一只只飞鸟，
+掠过湖面，
+在潾潾的光里，
+寻找失散的影子。
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Poems 808 and 1008 excel in merging introspective self-immersion with vibrant natural imagery and symbolic metaphors. Their dynamic portrayal of inner life and the quest for belonging resonates strongly with modern free-verse and existential themes, setting them apart from the more observational or minimal expressions in the other pieces.
+--------
+
+
+==================================================
+NEW RUN: 莲痂 - 2025-02-24 16:40:28
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 209]
+在湖的深处
+莲的肌肤上
+落下一枚枚
+沉默的痂
+
+它们是
+未说出口的
+秘密
+是夜晚
+未落下的
+泪滴
+
+在月光下
+它们闪烁
+却无声
+是莲
+对风的
+不语
+
+在夏日的
+某个清晨
+它们
+会随风
+散去
+留下
+一片
+清新的
+记忆
+
+[Checkpoint 409]
+在一夜的雨后，
+我遇见了你，
+带着未干的泪，
+和未开的蕊，
+在湖的深处，
+藏着一颗，
+被遗忘的，
+莲的痂。
+
+[Checkpoint 609]
+莲痂
+在一夜的雨后
+莲叶上
+开满了
+小小的
+月光
+
+[Checkpoint 809]
+莲在一夜之间
+开尽了所有的花
+留下的
+是被虫啃食过的
+一片片
+带着苦涩味的
+痂
+
+[Checkpoint 1009]
+莲在一夜之间
+开尽了所有的花
+花瓣上
+是月的泪
+是风的痂
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 209 stands out for its rich, layered free-verse and profound integration of natural imagery with introspective, existential themes. Checkpoint 1009 follows with concise yet powerful symbolism that transforms natural elements into philosophical reflections. The other poems, while evocative, offer either a more limited narrative scope or brevity that leaves less room for deep existential exploration.
+--------
+
+
+==================================================
+NEW RUN: 刺骨 - 2025-02-24 16:40:55
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 210]
+在寒风的缝隙中
+我寻找着
+一丝
+温暖的
+记忆
+
+它们
+却如
+冰凌
+般
+刺骨
+
+[Checkpoint 410]
+刺骨的风
+在夜晚
+撕裂了
+梦的边缘
+
+[Checkpoint 610]
+刺骨的风
+在夜晚
+将我冻醒
+
+[Checkpoint 810]
+刺骨的风
+在夜的深处
+吹落了
+一颗星
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 810 excels with its cosmic natural imagery and philosophical nuance, capturing an existential tension that aligns well with a modern free-verse style. Checkpoint 410 follows through with vivid and striking imagery that evokes the delicate balance between dream and reality. While Checkpoints 210 and 610 also convey moments of introspection and the harshness of nature, they do so in a less expansive and metaphorically rich manner.
+--------
+
+
+==================================================
+NEW RUN: 轮痕 - 2025-02-24 16:41:08
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 211]
+轮痕
+在雪地里
+画出
+沉默的
+轨迹
+
+每一圈
+都是
+未说出口的
+话语
+
+[Checkpoint 411]
+轮痕
+是大地的泪滴
+在一夜的风中
+干涸
+又在黎明的光里
+重新闪烁
+
+[Checkpoint 611]
+轮痕
+是车轮与大地的呢喃
+在沉默的夜晚
+细语着不为人知的过往
+
+[Checkpoint 811]
+轮痕
+是车轮与大地的呢喃
+在沉默的夜晚
+细语着不为人知的梦
+
+[Checkpoint 1011]
+轮痕
+是车轮与大地的呢喃
+在沉默的夜晚
+一遍遍压过记忆的边沿
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 1011 stands out for its dynamic, forceful engagement with memory—evoking a struggle between holding on and letting go—while capturing modern free-verse’s introspective and existential qualities. Checkpoint 811 follows closely with its soft, dreamlike imagery that invites deeper reflection on identity and possibility. Though Checkpoints 411 and 611 offer vivid natural imagery and reflective tones, they are less layered in exploring inner tension, and Checkpoint 211’s minimalist approach, while evocative, lacks the depth of the others regarding the preferred themes.
+--------
+
+
+==================================================
+NEW RUN: 冬至 - 2025-02-24 16:41:36
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 212]
+冬至，夜的长舌
+舔舐着每一寸光
+在最深的黑里
+藏着一颗
+未融的冰心
+
+雪，是夜的笔
+在白纸上
+勾勒着
+那些未说出口的
+秘密
+
+风，是冬的信使
+带着寒意
+却藏着
+温暖的
+期许
+
+[Checkpoint 412]
+冬至，一夜之间
+寒意在一夜之间
+凝结成霜
+挂在了每一根枝头
+
+[Checkpoint 612]
+冬至，一夜之间
+白昼把光都给了黑夜
+我
+在冰凉的月光下
+寻找遗失的温度
+
+[Checkpoint 812]
+冬至，是夜的锋利的刀
+割破了光的喉咙
+让白昼流尽最后一滴汁液
+黑夜，吞噬了一切
+直到连呼吸都带着冰的寒意
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 212 stands out for its layered imagery and symbolism—its use of metaphor, natural elements, and introspective nuances captures existential themes perfectly. Checkpoint 612, with its personal voice and reflective quest for lost warmth, follows closely. While Checkpoint 812 employs vivid, dramatic imagery, it leans toward aggression rather than introspection, and Checkpoint 412, though elegantly minimalist, lacks the thematic depth of the others.
+--------
+
+
+==================================================
+NEW RUN: 积雪 - 2025-02-24 16:41:52
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 213]
+积雪
+藏匿了
+大地的
+呼吸
+
+在
+夜的
+深处
+它
+等待
+融化
+的
+瞬间
+
+[Checkpoint 413]
+积雪
+在一夜之间
+把夜晚
+压得更低
+
+[Checkpoint 613]
+积雪
+在夜的深处
+我将自己
+压成一片
+积雪
+
+[Checkpoint 813]
+积雪
+在夜的深处
+我将自己
+压成一片
+薄薄的
+积雪
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 813 excels by deepening the introspective, existential tone with a subtle nuance ('薄薄的'), merging self and nature with delicate symbolism. Checkpoint 613 similarly employs self-transformation in the natural realm, evoking rich philosophical imagery. In contrast, Checkpoints 213 and 413, while vivid in natural description, remain more observational with less personal introspection.
+--------
+
+
+==================================================
+NEW RUN: 惧融 - 2025-02-24 16:42:02
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 214]
+惧融
+
+在夜的深处
+我与影子对峙
+它吞噬着光
+我惧怕
+那无尽的黑暗
+
+直到
+一滴泪
+融化了
+冰封的恐惧
+
+在泪光中
+我看见了
+光的形状
+它在融化
+我心中的寒冰
+
+[Checkpoint 414]
+惧融
+在冰封的湖面
+我轻轻一跃
+冰与水的界限
+瞬间消失不见
+
+[Checkpoint 614]
+惧融
+在冰封的湖面
+我轻轻踏过
+每一步
+都是对未知的
+试探
+
+冰块
+在脚下
+细语着
+融化成
+不知名的液体
+
+[Checkpoint 814]
+惧融
+在冰封的湖面
+我用尽全力
+将一颗心
+挤成细线
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 214 stands out for its introspective confrontation with darkness and the transformative power of tears, blending vivid natural imagery with deep philosophical symbolism. Checkpoint 614 follows closely, using the metaphor of cautious steps on a frozen lake to evoke existential exploration and the tension between fear and the unknown. While 414 and 814 offer striking visuals, they lack the layered introspection and expansive symbolism of the top two poems.
+--------
+
+
+==================================================
+NEW RUN: 征服 - 2025-02-24 16:42:14
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 215]
+在夜的深处
+我将自己
+折叠成星
+藏进黑暗的缝隙
+
+等待
+黎明的刀锋
+将我
+从夜的皮囊中
+一刀一刀
+剥落
+
+直到
+我成为
+光的俘虏
+
+[Checkpoint 415]
+在无人问津的荒野，
+我与风赛跑，
+只为触碰，
+那片未被污染的云。
+
+[Checkpoint 615]
+我将自己
+压在石上
+只为榨出
+最后一滴
+不羁的风
+
+[Checkpoint 815]
+在夜的深处
+我将自己
+压成一片叶子
+让风
+将我吹向未知的远方
+
+[Checkpoint 1015]
+我将自己
+压在石上
+磨成一把刀
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 215 stands out with its deep introspection and layered metamorphosis—from night to light—imbued with vivid, transformative natural imagery. Checkpoint 815 similarly explores identity and the paradox of belonging versus escape through the gentle metaphor of a leaf carried by the wind. While checkpoint 415 offers a striking yet more minimal pursuit of purity, checkpoints 615 and 1015, although imaginative, present less nuanced reflection on the existential themes favored.
+--------
+
+
+==================================================
+NEW RUN: 寒潮 - 2025-02-24 16:42:29
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 216]
+寒潮
+从远方的山巅
+携带着夜的冷
+它来
+不带一丝温柔
+
+它掠过
+枯黄的叶
+颤抖着
+在风中
+寻找最后的温暖
+
+寒潮
+是夜的使者
+它带来
+冰的吻
+让梦
+在寒冷中
+沉睡
+
+[Checkpoint 416]
+寒潮
+从远方的山间涌来
+带着一夜的霜白
+和未眠的星群
+
+[Checkpoint 616]
+寒潮，是夜的使者
+它带着冰的吻
+亲吻每一根颤抖的树梢
+
+[Checkpoint 816]
+寒潮，是夜的使者
+它带着冰的吻
+亲吻每一根神经
+让人战栗，让人清醒
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 816 stands out by transforming natural imagery into a direct, introspective experience—its depiction of the cold tide touching 'every nerve' powerfully bridges the physical and existential, evoking both awe and awakening. Checkpoint 216 offers a more extended narrative with vivid scenery and metaphorical depth, while 616 and 416, though stylistically free-verse, remain more minimal and less engaging in exploring deeper themes.
+--------
+
+
+==================================================
+NEW RUN: 死蕾 - 2025-02-24 16:42:45
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 217]
+死蕾
+
+在枯萎的枝头，
+藏着未绽放的梦，
+死蕾，沉默的守望者，
+在风中低语，
+等待着，
+那永不归来的春天。
+
+[Checkpoint 417]
+死蕾
+在一夜的寒风中
+花瓣凋零
+我却在寻找
+那些未开的死蕾
+
+[Checkpoint 617]
+死蕾
+在一夜的风后
+凋零的不只是叶子
+还有那些
+未曾绽放的梦
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 217 richly blends natural imagery with introspective existential themes—its portrayal of a silent guardian waiting for an unreachable spring sets a reflective, philosophical tone. Checkpoint 617 similarly juxtaposes the natural decay with the loss of unblossomed dreams, providing a concise yet layered meditation. In contrast, Checkpoint 417, while personal in voice, does not achieve the same depth of imagery or expanded reflection.
+--------
+
+
+==================================================
+NEW RUN: 汁絮 - 2025-02-24 16:43:01
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 218]
+汁絮
+在夜的边缘
+我将汁液
+一滴一滴
+挤成月光下的絮语
+
+每一滴
+都是未说出口的
+秘密
+在风中
+轻轻
+飘落
+
+[Checkpoint 418]
+汁液滴落
+在夜晚的静谧中
+它轻声细语
+汁液
+是夜晚的泪滴
+
+[Checkpoint 618]
+汁液滴落，
+在夜晚的黑，
+是虫的吟，
+是风的轻，
+是汁絮，
+在夜的被下，
+静静的，
+流淌着梦。
+
+[Checkpoint 818]
+汁液滴落，
+在夜晚的角落，
+是风的呢喃，
+是叶的细语，
+汁，
+是夜的泪，
+絮，
+是梦的羽。
+
+[Checkpoint 1018]
+汁液滴落，
+在夜晚的角落，
+是风的呢喃，
+是叶的细语，
+汁，
+在黑的画卷上，
+绘出，
+一颗心的形状。
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 1018 excels by melding vivid natural imagery with introspective symbolism—the juice painting a heart on a dark canvas evokes deep existential reflection. Checkpoint 818 follows closely with its ethereal blend of night, whispering winds, and dreamlike symbols, effectively capturing the modern free-verse spirit. The remaining pieces, while evocative, are less layered in exploring life and identity, with 618 offering interesting natural metaphors and 218 and 418 being more minimalistic in their approach.
+--------
+
+
+==================================================
+NEW RUN: 冻绿 - 2025-02-24 16:43:13
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 219]
+冻绿，是冬日的梦
+在冰封的湖面下
+藏着未醒的绿意
+
+它不言不语
+却在最冷的夜里
+悄悄生长
+
+冻绿，是沉默的诗人
+在雪的白纸上
+写下未干的诗句
+
+[Checkpoint 419]
+冻绿，是冬日的泪滴
+在一夜之间
+凝结成的梦
+
+[Checkpoint 619]
+冻绿，是冬日的泪滴
+在一夜之间
+凝固了绿的梦
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 219 stands out for its layered, evocative imagery and free-verse style that deeply explore existential themes. The concise piece in checkpoint 419, with its smooth transition from imagery to metaphor, earns a close second, while checkpoint 619, though similar in tone, offers a slightly less fluid expression.
+--------
+
+
+==================================================
+NEW RUN: 风巢 - 2025-02-24 16:43:26
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 220]
+在风的巢穴里，
+藏着无数个夜晚的梦，
+它们轻盈地飞舞，
+在无边的黑暗中寻找光的缝隙。
+
+风巢，是流浪者的家，
+在它温暖的怀抱中，
+每一粒尘埃都有名字，
+每一阵风都带着故事。
+
+它不说话，
+却在每一个寂静的夜晚，
+用它那无形的手，
+轻轻拂过每一颗孤独的心。
+
+[Checkpoint 420]
+风巢
+藏在云的缝隙
+在夜的深处
+吹落一地的星
+
+[Checkpoint 620]
+风巢
+风在夜晚歇息的地方
+是片片叶子的家
+
+[Checkpoint 820]
+风巢，
+是风的家，
+藏在云的缝隙里，
+藏着梦与远方。
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 220 stands out for its rich, layered imagery and narrative depth that thoroughly explores existential themes, while checkpoint 820 employs symbolic language to evoke dreams and yearning. Checkpoints 420 and 620, though visually striking, are more minimal and offer less introspective exploration.
+--------
+
+
+==================================================
+NEW RUN: 空巢 - 2025-02-24 16:43:39
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 221]
+空巢
+
+在风的缝隙中，
+藏着一个空巢，
+它等待着，
+等待着归来的翅膀。
+
+夜，是它的被，
+星，是它的灯，
+在寂静的夜里，
+它数着时间的落英。
+
+风，是它的歌，
+雨，是它的泪，
+在无人的角落，
+它守着一份期待。
+
+直到有一天，
+翅膀划破了夜的寂静，
+空巢不再空，
+它拥有了，
+比风更轻的梦。
+
+[Checkpoint 421]
+空巢
+在夜的深处
+我是一只飞鸟
+飞过城市的灯火
+却找不到
+一个可以栖息的巢
+
+家
+曾经是温暖的代名词
+现在
+却只是一间
+装满回忆的壳
+
+风
+从四面八方涌来
+带着
+不属于我的味道
+
+[Checkpoint 621]
+空巢，
+是风的家，
+它却，
+不愿，
+做风的家。
+
+[Checkpoint 821]
+空巢，
+是风的家，
+吹落一地的叶，
+是它写给大地的信。
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 221 and 421 best capture the modern free-verse spirit with rich natural imagery and deep introspection. Poem 221 uses layered metaphors (wind, night, stars, dreams) to evoke transformation and longing, while poem 421 delivers a personal, existential voice of a wandering bird, grappling with the tension between belonging and escape. Although 821 and 621 offer intriguing ideas, their brevity leaves their themes less fully developed.
+--------
+
+
+==================================================
+NEW RUN: 虚美 - 2025-02-24 16:43:55
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 222]
+在虚美的镜中，
+我看见了，
+一个不真实的自己，
+在微笑。
+
+它没有，
+真实的重量，
+却有着，
+比风还要轻的，
+忧伤。
+
+在虚美的世界，
+我与自己，
+擦肩而过，
+却从未，
+真正相遇。
+
+[Checkpoint 422]
+在虚美的画卷里，
+我用尽一生的力气，
+只为触碰，
+那片不真实的云。
+
+[Checkpoint 622]
+在虚美的画卷里，
+我用想象的笔，
+蘸取了夜的黑，
+和黎明前的光。
+
+[Checkpoint 822]
+在虚美的画卷里，
+我用想象的笔，
+蘸取夜的黑，
+在白昼的纸上，
+绘出一片片，
+不真实的，
+却令人心动的，
+颜色。
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 822 excels with its vibrant, layered natural imagery and imaginative interplay between darkness and light, evoking deep existential reflection. Checkpoint 622 similarly harnesses vivid symbols and contrasts to explore identity and being. In contrast, Checkpoints 422 and 222, while introspective, are less developed in imagery and complexity.
+--------
+
+
+==================================================
+NEW RUN: 树尖 - 2025-02-24 16:44:10
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 223]
+树尖
+触碰着
+云的边缘
+
+在风中
+它轻声细语
+与过往的风
+交换秘密
+
+夜幕降临
+树尖
+是夜的笔尖
+在星河中
+轻轻一划
+
+[Checkpoint 423]
+树尖
+在夜的深处
+我与树尖
+一起
+数着
+落下的星
+
+[Checkpoint 623]
+树尖
+是风的笔
+在夜的宣纸上
+轻轻一点
+溅开的
+是星的泪
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Poem 623 excels with its layered metaphor of the treetop as the wind’s pen on night’s canvas, evoking vivid, existential imagery and deep symbolism. Poem 223 follows with a gentle narrative that personifies nature and hints at introspective secrets, while Poem 423, despite its personal tone, remains more minimal and less nuanced in its exploration of existential themes.
+--------
+
+
+==================================================
+NEW RUN: 死亡 - 2025-02-24 16:44:27
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 224]
+死亡
+是夜的尽头
+是风的归宿
+是叶落的静默
+是雪融的泪滴
+
+它不言不语
+却让生命
+在每一次呼吸中
+都闪烁着光
+
+[Checkpoint 424]
+死亡
+是夜的呼吸
+在黎明前
+静静的
+等待着
+一次绽放
+
+[Checkpoint 624]
+死亡
+是夜的呼吸
+在黎明前
+静静的
+收集着
+我们的梦
+
+[Checkpoint 824]
+死亡
+是夜的呼吸
+在白昼的隙缝中
+静静的
+不带一点颜色
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 224 stands out with its rich, layered natural imagery and reflection on the interplay of death and life, creating a profound, introspective mood. Checkpoint 624 deepens the existential theme by linking death with the collection of our dreams, evoking strong introspection. Although Checkpoints 424 and 824 share similar motifs, 424 is simpler and less expansive while 824’s imagery is less evocative.
+--------
+
+
+==================================================
+NEW RUN: 残阳 - 2025-02-24 16:44:38
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 225]
+残阳
+在天边
+撕开一道口子
+血色的
+泪滴落
+染红了
+归途的路
+
+[Checkpoint 425]
+残阳
+在被遗忘的角落，
+我与余晖对视，
+它将我吞噬，
+连同那些未说出口的梦。
+
+[Checkpoint 625]
+残阳
+在被遗忘的角落，
+我与余晖对视，
+它将最后一抹热情，
+洒在我的脚尖，
+我却不敢触碰，
+怕这温度，
+会将我冰封的过去，
+全部融化。
+
+[Checkpoint 825]
+残阳
+在被遗忘的角落，
+我与余晖对视，
+它将最后一抹热情，
+洒在我的脚尖。
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 625 stands out with its deep introspection and vivid symbolism, capturing the tension between embracing passion and fearing irreversible change. Checkpoint 425 also resonates with existential undertones and evocative imagery. In contrast, checkpoint 825, though similar, feels truncated without the reflective conclusion, while checkpoint 225, despite its striking natural imagery, lacks the layered philosophical exploration.
+--------
+
+
+==================================================
+NEW RUN: 火舌 - 2025-02-24 16:44:59
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 226]
+火舌
+在夜的深处
+舔舐着
+沉睡的梦
+
+它
+不带一丝怜悯
+吞噬
+一切的温柔
+
+在黑暗中
+它
+是唯一的光
+却
+将光
+化为灰烬
+
+[Checkpoint 426]
+火舌
+在夜的深处
+我吞下了一颗星
+它在胃里
+化作一束
+不灭的
+火舌
+
+[Checkpoint 626]
+火舌
+在夜的深处
+我与火焰对视
+它舔舐着黑暗
+我吞咽着光
+
+[Checkpoint 826]
+火舌
+在夜的深处
+我与火焰对视
+它舔舐着黑暗
+用不息的
+渴望
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Poem 626 excels with its introspective dialogue between self and flame, symbolizing transformation through the act of swallowing light and engaging deeply with existential themes. Poem 426 similarly uses vivid cosmic imagery and internal metamorphosis, while 826 and 226, despite their strong visuals, either shift focus away from the self or remain impersonal, making them less aligned with the desired introspective style.
+--------
+
+
+==================================================
+NEW RUN: 灰祭 - 2025-02-24 16:45:23
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 227]
+灰烬在风中
+轻飘飘的
+像是
+被遗忘的
+梦
+
+祭奠那些
+未完成的
+愿望
+和
+来不及说的
+再见
+
+[Checkpoint 427]
+灰在风中飘散
+落尽了颜色
+只留白与黑的边界
+在记忆的边缘
+轻轻一碰
+就碎了一地
+
+[Checkpoint 627]
+灰在风中飘零
+是故人留下的记忆
+它轻
+却压的我喘不过气
+
+灰落在湖面
+泛起一圈圈的思念
+它冷
+却让我感到无比的温暖
+
+灰在黑夜中闪烁
+是星星掉落后留下的泪
+它亮
+却刺痛了我的眼
+
+灰是祭
+是给那些离开的人
+是给那些未完成的梦
+
+[Checkpoint 827]
+灰在风中飘零
+是故人留下的泪
+滴在了
+冬的夜晚
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 627 excels with its rich and layered imagery that interweaves personal memory, nature, and existential musings, making it the most resonant with modern free-verse themes. Checkpoint 427 follows closely with its evocative and fragile portrayal of recollection through stark color contrasts. In contrast, Checkpoint 227 and 827, while reflective and minimalist, offer less depth and complexity in exploring life and identity.
+--------
+
+
+==================================================
+NEW RUN: 呼吸机 - 2025-02-24 16:45:50
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 228]
+在夜晚的边缘，
+我与呼吸机对话，
+它轻声细语，
+却带着冰冷的机械感。
+
+每一次的呼吸，
+都是对生命的坚持，
+在寂静中，
+我寻找着温暖的痕迹。
+
+它不眠不休，
+守护着我，
+在梦与现实之间，
+是它，让我得以继续前行。
+
+[Checkpoint 428]
+在夜晚的深处，
+我与一台机器，
+共享着呼吸，
+它用冰冷的逻辑，
+计算着生命的温度。
+
+[Checkpoint 628]
+在夜晚的深处
+我与机器同眠
+它吐出的
+是冰冷的风
+还是带温度的梦
+
+[Checkpoint 828]
+在夜晚的深处
+我与机器同眠
+它吐出的
+是冰冷的风
+还是带温度的希望
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 828 stands out for its concise modern free-verse style and the uplifting twist of 'hope', embodying the existential and philosophical tension desired. Checkpoint 228 follows with a richer narrative that deeply explores life's persistence and the delicate interplay between technology and warmth. The briefer pieces (628 and 428) are evocative but lack the symbolic depth and expansive imagery of the top two.
+--------
+
+
+==================================================
+NEW RUN: 续命 - 2025-02-24 16:46:14
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 229]
+在夜的深处
+我吞下
+一颗颗
+名为时间的药丸
+
+它们在胃里
+发酵
+膨胀
+直至
+撑破
+那层
+名为生命的薄膜
+
+我试图
+在每一滴
+流逝的
+血液中
+寻找
+续命的
+线索
+
+但
+它们
+都
+在
+逃逸
+在
+寻找
+新的
+栖息地
+
+我
+在
+无尽的
+黑暗中
+呼唤
+那些
+曾经
+给予
+我
+光的
+名字
+
+[Checkpoint 429]
+在无尽的黑夜中沉睡，
+我寻找着续命的光，
+那些光，
+是记忆中未干的泪滴，
+是梦里未落的雨。
+
+[Checkpoint 629]
+我们都是在黑夜中
+寻找光的虫
+续命，是飞向光源
+还是坠落泥潭
+
+[Checkpoint 829]
+我们吞下夜晚
+吞下星月和一切光
+只为在黎明前
+将黑暗
+全部吐出
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 829 stands out by harnessing vivid natural imagery (night, stars, moon, dawn) and a transformative, cyclical narrative that perfectly encapsulates modern free-verse existential themes. Checkpoint 229 follows with its intense introspection and layered symbolism that probe the nature of time, life, and loss. While Checkpoints 629 and 429 are thought‐provoking and embody existential queries, they are less expansive in their use of natural imagery and philosophical depth compared to the top two.
+--------
+
+
+==================================================
+NEW RUN: 噬心 - 2025-02-24 16:46:42
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 230]
+在夜的深处
+我将自己
+撕成一片片
+让黑暗吞噬
+
+心，被咬碎
+在无尽的黑夜里
+寻找着
+一丝光的痕迹
+
+每一口
+都是痛的
+却也
+是生的渴望
+
+[Checkpoint 430]
+在夜的深处
+我将自己
+撕成无数片
+只为寻找
+那颗
+被吞噬的心
+
+[Checkpoint 630]
+心被吞噬的夜晚，
+我将自己埋在冰冷的月光下，
+让每一颗星星都见证我的痛苦。
+
+[Checkpoint 830]
+噬心
+是夜的黑
+吞噬了白日的光
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Poem 630 excels with its vivid natural imagery—embedding personal torment within the cold moonlight and celestial witness—which strongly aligns with the modern, introspective free-verse style. Poem 230 is a close second due to its layered depiction of inner fragmentation and the search for light amid darkness. Poems 430 and 830, while potent in their symbolism, are less developed in narrative depth and emotional expansion.
+--------
+
+
+==================================================
+NEW RUN: 锈蚀 - 2025-02-24 16:47:01
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 231]
+锈蚀在夜的边缘
+啃食着记忆的边角
+每一滴落下的雨
+都是它无声的泪
+
+铁的沉默
+被时间的细针
+一针一线缝补
+直到连缝线都消失
+
+在月光下
+那些曾经锋利的边缘
+如今只留下
+一片模糊的影子
+
+[Checkpoint 431]
+锈蚀
+在遗忘的角落
+铁
+静静的
+等待
+风的
+亲吻
+
+[Checkpoint 631]
+锈蚀
+在遗忘的角落
+铁
+静静的
+等待着
+时间的
+泪水
+
+[Checkpoint 831]
+锈蚀
+在遗忘的角落
+铁
+静静的
+等待着
+时间的
+泪滴
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Poem 231 stands out with its layered narrative and vivid natural imagery—its metaphors of rust, memory, and time create a deep, introspective atmosphere that perfectly matches the modern free-verse and existential tone. Among the minimalist pieces, 831’s choice of '泪滴' adds a slightly more tactile and evocative quality than the similar approaches in 631 and 431.
+--------
+
+
+==================================================
+NEW RUN: 忍冬 - 2025-02-24 16:48:43
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 232]
+忍冬在风中
+沉默的守望者
+等待着
+冰雪消融的那一刻
+
+它不言不语
+却在寒风中
+绽放着
+属于自己的
+坚韧与希望
+
+[Checkpoint 432]
+忍冬，是冬的忍者
+在冰的缝隙中
+寻找一丝未被冻结的绿意
+
+它不问归期
+只在一夜之间
+让雪白的大地
+开满不知名的花
+
+[Checkpoint 632]
+忍冬，是冬的忍者
+在冰的缝隙中
+偷走了一冬的寒意
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Poem 432 stands out by employing dynamic metaphors (the 'winter ninja') and vivid natural imagery to evoke existential resilience and transformation, aligning well with the desired modern free-verse introspection. Poem 232 also presents a calm, meditative tone of endurance and hope, but with less creative flair than 432. Poem 632, while evocative and minimalist, does not delve as deeply into the themes or imagery.
+--------
+
+
+==================================================
+NEW RUN: 心坠 - 2025-02-24 16:48:57
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 233]
+心坠落
+在无尽的
+黑夜中
+
+寻找
+一片
+未被
+污染的
+光
+
+[Checkpoint 433]
+心坠
+沉入无尽的黑夜
+在冰冷的星河中漂泊
+
+它寻找着光
+却只触碰到寒冰
+每一次闪烁
+都是未说出口的呼唤
+
+[Checkpoint 633]
+心坠落的地方
+开满了
+没有根的花
+
+[Checkpoint 833]
+心坠落的地方
+开满了
+带刺的花
+
+[Checkpoint 1033]
+心坠落的地方
+开满带刺的花
+在夜的田野里
+静静的发芽
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 1033 offers a fully developed existential landscape with vivid natural imagery and layered symbolism, making it the strongest. Checkpoint 433 follows closely with its cosmic, icy metaphors and introspective tone. The remaining poems, though resonant, are more minimal in imagery and thematic expansion.
+--------
+
+
+==================================================
+NEW RUN: 白洞 - 2025-02-24 16:49:14
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 234]
+在宇宙的边缘，
+白洞轻启，
+吐出光与希望，
+将黑暗吞噬。
+
+它不吞噬，
+它给予，
+给予一切未完成的梦，
+给予一切未绽放的花。
+
+在白洞的光芒中，
+时间静止，
+空间弯曲，
+一切归于纯粹。
+
+它不藏匿，
+它敞开，
+敞开一切未知的可能，
+敞开一切未触及的未来。
+
+白洞，是宇宙的诗人，
+在无尽的黑暗中，
+书写着光明的诗篇，
+每一行都是新的开始。
+
+[Checkpoint 434]
+白洞
+在无尽的黑暗中沉睡，
+我等待着，
+等待着被光唤醒的瞬间。
+
+它来了，
+带着撕裂一切的温柔，
+将我吞噬，
+又将我释放。
+
+我飞向未知，
+在白洞的边缘，
+寻找失散的自己，
+和那些遗落的梦。
+
+[Checkpoint 634]
+白洞
+在遗忘的边缘
+我将一切吐露
+吐尽黑夜的汁液
+
+[Checkpoint 834]
+白洞
+在遗忘的边缘
+我将自己挤破
+挤出一些光
+一些不知名的温度
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 234 stands out with its expansive cosmic imagery, philosophical depth, and hopeful tone, fully embracing modern free verse. Checkpoint 434 follows closely with its intimate exploration of self and transformative experience. Although Checkpoints 834 and 634 employ striking metaphors, they are less developed in weaving introspection and existential nuance.
+--------
+
+
+==================================================
+NEW RUN: 深渊 - 2025-02-24 16:49:30
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 235]
+在深渊的边缘，
+我丢下了一颗石子，
+它沉入无尽的黑暗，
+没有回声，没有光。
+
+我等待着，
+等待着深渊的回应，
+却只听到风的低语，
+和我心跳的回响。
+
+我伸出手，
+试图抓住什么，
+却只触碰到冰冷的空气，
+和我自己的影子。
+
+在深渊的深处，
+藏着我未曾见过的自己，
+一个被遗忘的梦，
+和未说出口的告别。
+
+我闭上眼，
+让黑暗将我吞噬，
+在无尽的沉寂中，
+寻找着失去的光。
+
+[Checkpoint 435]
+在无尽的黑里沉睡，
+我沉入了深渊，
+那里没有光，
+没有温暖，
+没有希望的呼唤。
+
+我沉入了，
+沉入了无尽的黑，
+沉入了没有边界的痛苦，
+沉入了连风都不愿触碰的角落。
+
+但在这片黑暗中，
+我却看见了光，
+那是我从未见过的，
+比白日更耀眼的光，
+它来自我内心，
+照亮了我，
+让我知道，
+即使在最深的黑暗中，
+我也不是完全的黑，
+我还有光，
+我还有希望。
+
+[Checkpoint 635]
+在无尽的黑里沉睡，
+我，是被遗忘的梦，
+是风，不敢吹落的泪，
+是夜，不敢吞噬的痛。
+
+[Checkpoint 835]
+在深渊的边缘，
+我将自己撕裂，
+让那些黑暗的，
+细软的，
+如毛发般的风，
+一根根插进我的身体。
+
+[Checkpoint 1035]
+在深渊的边缘
+我将自己
+撕裂成无数片
+让每一瓣
+都去寻找
+失落在黑暗中的光
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 435 stands out with its balanced progression from profound existential darkness to the emergence of an inner light, using vivid imagery and free-verse techniques that align well with themes of identity and hope. Checkpoint 235 also offers rich introspection and symbolic natural imagery, though it remains more ambiguous. In contrast, 1035 employs striking fragmentation imagery with a search for lost light, while the minimalism of 635 and the visceral, untempered violence of 835 make them less aligned with the desired philosophical balance.
+--------
+
+
+==================================================
+NEW RUN: 蝶刃 - 2025-02-24 16:49:58
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 236]
+在夜的深处
+我将梦
+切成蝶的形状
+每一刀
+都是对光的渴望
+
+它们在黑暗中
+寻找着
+不属于自己的
+一片光亮
+
+锋利的刃
+在每一次
+切割中
+都滴落着
+未说出口的
+爱与哀愁
+
+[Checkpoint 436]
+蝶刃
+在一夜的风中
+我将梦
+切成无数个
+带着翅膀的
+泪滴
+
+[Checkpoint 636]
+蝶刃，
+在夜的深处，
+切开黑暗，
+让月光流成河。
+
+[Checkpoint 836]
+蝶刃，
+在夜的深处，
+切开黑暗，
+收集光的残片。
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 636 excels with its vivid natural imagery and dynamic metaphor of slicing darkness to unleash a river of moonlight, encapsulating modern free-verse aesthetics. Checkpoint 236 follows with deep introspection and emotive symbolism, reflecting existential longing through its crafted imagery. The remaining poems, while evocative, are less expansive in thematic depth and development.
+--------
+
+
+==================================================
+NEW RUN: 蝶散 - 2025-02-24 16:50:24
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 237]
+蝶散
+在风的边缘
+翅膀轻轻触碰
+夜的寂静
+
+它们
+在月光下
+寻找
+失去的梦
+
+一片一片
+散落的光
+在黑暗中
+寻找归途
+
+[Checkpoint 437]
+蝶散
+在一夜的风后
+梦落一地
+我拾不起
+那些飞走的温度
+
+[Checkpoint 637]
+蝶散，
+在一夜的风后，
+花瓣与梦，
+都去了远方。
+
+[Checkpoint 837]
+蝶散，
+在一夜的风后，
+花瓣落尽，
+留下的，
+是片片的，
+曾经的梦。
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Poem 237 stands out with its expansive natural imagery and reflective journey—searching for lost dreams under moonlight—in alignment with a modern free-verse, introspective style. Poem 837 follows closely with its evocative detail and layered symbolism. While Poems 437 and 637 offer poignant, minimalist expressions, they lack the developed imagery and philosophical depth found in 237 and 837.
+--------
+
+
+==================================================
+NEW RUN: 器离 - 2025-02-24 16:50:42
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 238]
+器离
+
+器离，是夜的告别，
+在月的边缘，轻轻一划，
+留下一道，不规则的伤疤。
+
+它不说话，沉默是它的语言，
+在风中，轻轻摇晃，
+等待，一个不再回来的夜晚。
+
+它曾是，一个温暖的家，
+藏着，未说出口的梦，
+现在，只是一块，冰冷的石头，
+在无人问津的角落，静静等待，
+等待，一个永远不会到来的归人。
+
+[Checkpoint 438]
+器离，
+在无人问津的夜晚，
+我将自己，
+拆解成无数个，
+不知名的零件。
+
+[Checkpoint 638]
+机器的呼吸
+在夜晚
+是沉默的诗人
+
+[Checkpoint 838]
+机器的呼吸
+是冰冷的风
+在夜晚
+它吞噬着光
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 238 stands out with its rich natural imagery, layered symbolism, and deep existential undercurrents, fully aligning with the modern free-verse vibe. Checkpoint 838 follows closely with vivid, dynamic imagery and a philosophically charged mood. While checkpoint 438 offers a potent, introspective metaphor of self-dismantling, its imagery is less expansive, and checkpoint 638, though elegantly minimalistic, does not delve as deeply into the thematic and natural elements.
+--------
+
+
+==================================================
+NEW RUN: 溃刃 - 2025-02-24 16:51:02
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 239]
+溃刃
+
+在夜的深处
+刀刃溃烂
+滴落的
+是记忆的脓血
+
+曾经的锋利
+如今只余
+冰冷的
+绝望的呼唤
+
+它在寻找
+一个伤口
+一个可以
+再次撕裂的
+灵魂的缺口
+
+[Checkpoint 439]
+溃刃
+在夜的深处
+我将自己
+切成无数个
+不规则的形状
+
+[Checkpoint 639]
+溃刃
+在风的缝隙中
+我将自己
+挤成一条细线
+
+[Checkpoint 839]
+溃刃
+在风的缝隙中
+我将自己
+挤成一条
+细长的
+冰凘
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 239 excels with its layered imagery and deep, existential symbolism that reflects on decay and memory, aligning best with the preferred modern free-verse style. Checkpoint 839 follows closely with its refined natural imagery and transformative metaphor. Checkpoints 639 and 439, while evocative, remain more minimal in their exploration and emotional depth.
+--------
+
+
+==================================================
+NEW RUN: 暴雨 - 2025-02-24 16:51:20
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 240]
+暴雨
+在夜的深处
+撕裂了
+每一寸
+沉睡的
+空气
+
+它
+带着
+愤怒的
+呼啸
+冲刷
+着
+每一颗
+被遗忘的
+心
+
+[Checkpoint 440]
+暴雨
+在夜的深处
+我与你对峙
+你带着雷的嘶吼
+和光的利剑
+
+[Checkpoint 640]
+暴雨
+它从远方
+带着雷电的怒吼
+和被撕裂的黑夜
+
+[Checkpoint 840]
+暴雨
+它带着雷的怒吼
+撕裂了夜的衣裳
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 440 stands out with its direct, confrontational tone and personal engagement that evokes an internal struggle through vivid, symbolic natural imagery. Checkpoint 240 follows closely with its expansive, emotionally charged depiction of nature cleansing forgotten hearts. While both 640 and 840 present striking natural images, they lack the layered introspection and existential tension found in the top two.
+--------
+
+
+==================================================
+NEW RUN: 纸溃 - 2025-02-24 16:51:42
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 241]
+纸溃在风中，
+散落一地的，
+是未完成的梦，
+是未说出口的，
+是藏在角落的，
+那些被遗忘的，
+细碎的光。
+
+[Checkpoint 441]
+纸溃，
+在一夜的风中，
+那些未干的泪，
+与墨一起，
+沉睡在了，
+黎明前的黑暗里。
+
+[Checkpoint 641]
+纸片在风中飞舞，
+是记忆的羽翼，
+被撕裂的不只是纸，
+是记忆的边角，
+是那些未说出口的思念。
+
+[Checkpoint 841]
+纸片在风中飘零，
+被撕裂的不只是边缘，
+是记忆，
+是曾经的温度，
+是那些压根没机会干透的泪。
+
+[Checkpoint 1041]
+纸片在风中飘零，
+被撕裂的不只是边缘，
+是记忆，
+是曾经的温度，
+和那些未说出口的思念。
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 441 stands out with its vivid, transformative imagery—unshed tears mingling with ink in the pre-dawn darkness—perfectly capturing the modern free-verse introspection and existential mood. Checkpoint 841 follows closely, evoking poignant memories and past warmth through powerful metaphors. Checkpoints 641 and 1041 present creative variations on the theme with imaginative symbols like 'memory’s wings,' but they lack the intense emotional progression of 441 and 841. Meanwhile, Checkpoint 241, although evocative, doesn’t develop its imagery and themes as robustly as the others.
+--------
+
+
+==================================================
+NEW RUN: 透城 - 2025-02-24 16:52:14
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 242]
+透城
+在夜的缝隙中
+光，挤出一条细缝
+穿透了
+沉睡的城
+
+每一扇窗
+都是一个故事
+有的亮着
+有的暗着
+透出的
+是生活的温度
+
+风，轻轻吹过
+带走了
+一些秘密
+和未说出口的
+思念
+
+透城
+是光与影的对话
+是夜与昼的交替
+是每一个
+未眠人
+心中的
+一盏灯
+
+[Checkpoint 442]
+透城
+在一夜的雨后
+城市
+被洗刷的
+像一块
+透明的
+玻璃
+
+[Checkpoint 642]
+城在一夜之间
+被一夜的雨
+彻底洗透
+每一滴水
+都是从远方
+飞来的
+带着未名的
+故事
+
+[Checkpoint 842]
+城在一夜之间
+被切开
+挤出的汁液
+是过往的光
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 242 excels with its layered narrative, vivid imagery and introspective tone, evoking a clear interplay of light, shadow and inner emotion. Checkpoint 642 follows with its evocative metaphor of rain carrying distant, unnamed stories, adding depth and existential nuance. In contrast, checkpoint 442, though visually appealing with its clean, transparent imagery, and checkpoint 842, with its cryptic, surreal symbolism, do not develop the introspective or expansive themes as fully.
+--------
+
+
+==================================================
+NEW RUN: 雨锥 - 2025-02-24 16:52:30
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 243]
+雨锥，是夜的笔尖
+在无边的黑幕上
+滴落着墨色的泪
+
+每一滴，都是
+未说出口的
+秘密
+
+它们，轻敲着
+沉睡的窗
+唤醒了
+梦中沉睡的
+记忆
+
+[Checkpoint 443]
+雨锥
+在夜的深处
+我将自己
+挤成一根
+细长的雨锥
+
+[Checkpoint 643]
+雨锥，
+是夜的泪滴，
+在黑暗中，
+寻找着，
+失散的光。
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 243 stands out with its rich natural imagery and layered metaphors that awaken hidden memories, fulfilling the modern introspective free-verse style. Checkpoint 643, with its succinct yet evocative search for lost light, also captures existential and philosophical elements well. Checkpoint 443, although it cleverly encapsulates self-transformation, remains more minimal in imagery and development.
+--------
+
+
+==================================================
+NEW RUN: 猫山 - 2025-02-24 16:52:46
+==================================================
+
+--------
+Prompt : You will be given poems of a certain topic in Chinese, each identified by a unique checkpoint number. Evaluate these poems and rank them from best (1) to worst (N), focusing on their alignment with the following preferred style and qualities:
+• Modern free-verse style with introspective, existential themes
+• Vivid natural imagery
+• Exploration of life, identity, and the tension between belonging and escape
+• Philosophical or spiritual elements
+
+In your critique, consider (but do not limit yourself to) the following aspects:
+1. Tone - The poem's emotional ambience.
+2. Style - The poet's writing approach or technique.
+3. Imagery - Key visual elements that stand out.
+4. Symbolism - Underlying symbolic meanings.
+5. Themes - Central ideas explored by the poem.
+6. Poetic Techniques - Use of figurative language such as metaphor, personification.
+7. Emotional Impact - How the poem's mood or sentiment evolves.
+8. Possible Expansions - Whether the poem provokes further reflection or resonates deeply.
+
+Then, return your evaluation strictly as a JSON object matching this schema:
+
+{
+  "rankings": [<checkpoint_number_in_best_to_worst_order>, ...],
+  "top_poems": [<checkpoint_number_of_top_N_poems>, ...],
+  "explanation": "<short_reason_for_your_evaluation_judgement>"
+}
+
+Where:
+- "rankings" is an array listing every poem's checkpoint in descending order of quality (best poem first).
+- "top_poems" is an array of the checkpoint numbers corresponding to the **top N** poems (e.g., top 3 or top 5).
+- "explanation" is a brief, clear, and precise rationale for your overall rankings.
+
+Important: Output only valid JSON. Provide no other text beyond this JSON structure.
+
+Here are the poems:
+[Checkpoint 244]
+猫山
+藏匿在夜的深处
+月光下
+是无数双
+闪烁的眼睛
+
+它们
+轻盈地跃过
+每一根
+沉默的枝桠
+在风中
+低语着
+不为人知的秘密
+
+山的轮廓
+在晨雾中
+渐渐模糊
+只留下
+一地
+未解的谜
+
+[Checkpoint 444]
+猫山
+在猫山的夜晚
+月光是流浪的猫
+轻舔着每一颗
+被遗忘的石子
+
+Please provide your rankings and list the top 2 poems (by checkpoint number) now.
+Explanation : Checkpoint 244 offers a rich free-verse narrative with layered natural imagery, mystique, and an introspective exploration of unknown depths; while Checkpoint 444, though marked by a striking metaphor, is succinct and does not develop the philosophical or existential themes as fully.
+--------

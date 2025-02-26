@@ -1,0 +1,54 @@
+{
+  "小雪": [
+    {
+      "title": "小雪",
+      "checkpoint_number": 1300,
+      "checkpoint_path": "32b_adaptper5/0001300_adapters.safetensors",
+      "body": "小雪\n它在夜晚轻落\n覆盖了夜晚的每一处角落\n只为与我相遇\n却在晨光中消失\n只留下记忆中的白\n和记忆中的你",
+      "prompt_token": 64,
+      "generate_token": 40,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "小雪",
+      "checkpoint_number": 1304,
+      "checkpoint_path": "32b_adaptper5/0001300_adapters.safetensors",
+      "body": "小雪落，\n不问归期，\n在夜的唇边轻吻，\n只为触碰，\n梦的温度。",
+      "prompt_token": 61,
+      "generate_token": 26,
+      "prompt_variant_index": 5,
+      "minimized": true
+    },
+    {
+      "title": "小雪",
+      "checkpoint_number": 1400,
+      "checkpoint_path": "32b_adaptper5/0001400_adapters.safetensors",
+      "body": "小雪\n它在夜晚轻落\n覆盖了夜晚的每一处角落\n只留下淡淡的光\n和无尽的思量",
+      "prompt_token": 64,
+      "generate_token": 29,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "小雪",
+      "checkpoint_number": 1600,
+      "checkpoint_path": "32b_adaptper5/0001600_adapters.safetensors",
+      "body": "小雪\n它在夜里来访\n轻吻我的窗\n带来梦的霜",
+      "prompt_token": 64,
+      "generate_token": 18,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "小雪",
+      "checkpoint_number": 1101,
+      "checkpoint_path": "32b_adaptper5/0001100_adapters.safetensors",
+      "body": "小雪\n在无人的街\n雪 无声的落\n落 在 我 的\n记忆 与 忘记 之间",
+      "prompt_token": 65,
+      "generate_token": 29,
+      "prompt_variant_index": 2,
+      "minimized": true
+    }
+  ]
+}

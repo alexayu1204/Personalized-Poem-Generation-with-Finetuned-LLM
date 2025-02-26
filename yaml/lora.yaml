@@ -1,0 +1,45 @@
+model: "mlx-community/Qwen2.5-32B-Instruct-4bit"
+train: true
+fine_tune_type: lora
+data: "./data"
+seed: 0
+
+# Use last 16 or 24 layers if your code allows partial-layer LoRA:
+num_layers: 16          # if your script interprets this as "apply LoRA to the top 24 blocks"
+
+batch_size: 2
+iters: 3000             # total steps. you can do 2000-4000 depending on data size
+val_batches: 25
+learning_rate: 3e-5     # will be overridden by the LR schedule peak anyway
+steps_per_report: 20
+steps_per_eval: 200
+resume_adapter_file: null
+adapter_path: "adapters6"
+save_every: 200
+test: false
+test_batches: 100
+max_seq_length: 256
+grad_checkpoint: false
+
+lora_parameters:
+  keys: [
+    "self_attn.q_proj",
+    "self_attn.k_proj",
+    "self_attn.v_proj",
+    "mlp.down_proj",
+    "mlp.gate_proj",
+    "mlp.up_proj"
+  ]
+  rank: 8
+  alpha: 16
+  dropout: 0.1
+  scale: 16.0
+
+lr_schedule:
+  name: cosine_decay
+  # ~200 steps for warmup, which is ~ 7% of 3000 steps
+  warmup: 200
+  warmup_init: 1e-7
+  # arguments: [peak_lr, total_decay_steps, final_lr]
+  # If your code expects these in a certain order:
+  arguments: [3e-5, 3000, 1e-7]

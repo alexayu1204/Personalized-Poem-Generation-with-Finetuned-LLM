@@ -1,0 +1,1802 @@
+[
+  {
+    "title": "河",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 河<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "河水\n在夜的深处\n静静的流\n它经过的地方\n都开满了\n夜的花",
+    "prompt_token": 64,
+    "generate_token": 23,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "干涸",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 干涸<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "干涸的河床\n在等待一场\n没有尽头的\n雨",
+    "prompt_token": 64,
+    "generate_token": 16,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "虫翅",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 虫翅<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在虫翅上\n我看见了\n被风\n吹散的\n是光",
+    "prompt_token": 65,
+    "generate_token": 19,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "雪峰",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 雪峰<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "雪峰\n在落雪的夜晚\n我将过去碾碎\n让它随风吹来",
+    "prompt_token": 65,
+    "generate_token": 20,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "雨",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 雨<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "雨\n在夜的深处\n滴落\n每一滴\n都\n是\n一\n颗\n心",
+    "prompt_token": 64,
+    "generate_token": 23,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "伞裂",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 伞裂<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "伞裂了，\n雨\n在逃走。",
+    "prompt_token": 64,
+    "generate_token": 11,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "碎雨",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 碎雨<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "碎雨\n在夜的深处\n滴落\n在石上\n在叶上\n在记忆的弦上",
+    "prompt_token": 65,
+    "generate_token": 25,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "隐线",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 隐线<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在隐线的另一端\n我将自己\n拉成一条\n没有尽头的\n线",
+    "prompt_token": 65,
+    "generate_token": 21,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "湖",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 湖<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "湖水已在我眼里结痂\n瞳孔中绽出一堆枯萎的莲花\n冬\n冬日来袭\n我不再惧怕那焦糊了的莲蓬\n温室外的昆虫都已死去\n还没吮吸够空气的灰绿被冻的发脆\n吹落的绿叶驾着荷叶驰骋\n野鸭作伴\n在还有余温的地方画出锋利的对勾",
+    "prompt_token": 64,
+    "generate_token": 89,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "莲痂",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 莲痂<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在荷塘的深处\n我与莲痂\n第一次\n见面",
+    "prompt_token": 65,
+    "generate_token": 15,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "刺骨",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 刺骨<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "刺骨的风\n将我冻成\n一块冰冷的\n石头",
+    "prompt_token": 64,
+    "generate_token": 16,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "轮痕",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 轮痕<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在无人问津的夜晚\n我将自己\n压成一片片的叶子\n让轮子\n在上面碾过",
+    "prompt_token": 65,
+    "generate_token": 27,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "冬至",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 冬至<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "冬至，是夜的笔\n在黎明的纸上\n写下的\n最短的\n一句话",
+    "prompt_token": 64,
+    "generate_token": 22,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "积雪",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 积雪<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "积雪\n在落雪的夜晚\n我将积雪\n藏在了心里",
+    "prompt_token": 64,
+    "generate_token": 19,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "惧融",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 惧融<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "惧融，是将恐惧\n融化在风里\n让它随风飘散\n直到消失不见",
+    "prompt_token": 65,
+    "generate_token": 22,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "征服",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 征服<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在无人问津的荒野\n我将自己\n压成一片叶子",
+    "prompt_token": 64,
+    "generate_token": 17,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "寒潮",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 寒潮<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "寒潮\n一夜过去\n我本以为树摆脱不掉的枯黄\n但他现在却\n长满了密密麻麻的花序——令我恐惧却又给我希望\n我想象着用手捻开一个\n没成熟的青绿色搅着汁液紧紧拥抱着柳絮",
+    "prompt_token": 64,
+    "generate_token": 60,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "死蕾",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 死蕾<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "死蕾，是花儿\n在夜的黑幕下\n做了一个\n没有翅膀的\n飞的梦",
+    "prompt_token": 64,
+    "generate_token": 25,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "汁絮",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 汁絮<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "汁液\n在伤口\n开裂\n流淌\n直到\n枯萎",
+    "prompt_token": 65,
+    "generate_token": 16,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "冻绿",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 冻绿<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "冻绿，是被冰封的梦\n是冬日里\n一颗心\n藏在了冰块里",
+    "prompt_token": 64,
+    "generate_token": 25,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "风巢",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 风巢<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "风在吹\n巢在摇\n叶子们\n正做着\n一场\n没有答案的\n选择题",
+    "prompt_token": 65,
+    "generate_token": 24,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "空巢",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 空巢<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "空巢\n是被遗忘的角落\n是风的家\n它来来去去\n却从不带走一样东西",
+    "prompt_token": 65,
+    "generate_token": 27,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "虚美",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 虚美<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在虚美的世界里\n我将自己\n压成一片叶子",
+    "prompt_token": 65,
+    "generate_token": 15,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "树尖",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 树尖<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "树尖\n是夜的泪滴\n在黎明的指尖\n轻轻一弹",
+    "prompt_token": 64,
+    "generate_token": 18,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "死亡",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 死亡<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "死亡\n是夜晚\n落尽了\n所有的泪滴",
+    "prompt_token": 64,
+    "generate_token": 13,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "残阳",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 残阳<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "残阳\n在余晖的笔下\n我与影子对视\n倾听风的呢喃\n和远方的呼唤",
+    "prompt_token": 65,
+    "generate_token": 28,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "火舌",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 火舌<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "火舌\n是夜的泪滴\n在黑暗中\n闪烁着\n不为人知的\n颜色",
+    "prompt_token": 65,
+    "generate_token": 23,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "灰祭",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 灰祭<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "灰烬中升起的\n是记忆\n是记忆撑破了\n灰烬的壳",
+    "prompt_token": 65,
+    "generate_token": 20,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "呼吸机",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 呼吸机<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在机械的呼吸中沉睡，\n我与死亡擦肩而过，\n呼吸机的每一次工作，\n都是在为我续命，\n也是在提醒我，\n活着，是什么滋味。",
+    "prompt_token": 66,
+    "generate_token": 40,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "续命",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 续命<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "续命\n是将一颗心\n挤成\n几滴泪",
+    "prompt_token": 64,
+    "generate_token": 15,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "噬心",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 噬心<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "噬心\n是被虫蛀了的苹果\n腐烂的\n是甜的",
+    "prompt_token": 65,
+    "generate_token": 19,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "锈蚀",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 锈蚀<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "铁在等待一场雨\n锈蚀了铁的神经\n铁的神经连着血管\n血管里流淌着锈色的血液",
+    "prompt_token": 64,
+    "generate_token": 29,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "忍冬",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 忍冬<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "忍冬，是缠绕在木中的一首歌吗？\n还是隐藏在风里的一滴泪？\n\n它悄悄的开在夜的深处\n又在黎明前隐去\n\n忍冬，忍冬\n忍着冬的寒冷\n开在没有雪的季节",
+    "prompt_token": 64,
+    "generate_token": 60,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "心坠",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 心坠<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "心坠落\n在无尽的\n黑夜",
+    "prompt_token": 64,
+    "generate_token": 11,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "白洞",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 白洞<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "白洞\n吞没一切的光明",
+    "prompt_token": 64,
+    "generate_token": 9,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "深渊",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 深渊<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在深渊的边缘\n我看见了\n那些\n从未见过的\n颜色",
+    "prompt_token": 65,
+    "generate_token": 17,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "蝶刃",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 蝶刃<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "蝶刃，藏在了风里\n藏在了\n风的哭泣里",
+    "prompt_token": 65,
+    "generate_token": 18,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "蝶散",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 蝶散<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "蝶散，如梦初醒\n在夜的深处\n我与影子对视\n倾听风的呢喃\n和远方的呼唤",
+    "prompt_token": 65,
+    "generate_token": 31,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "器离",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 器离<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "器离\n器皿里盛放的\n是记忆\n是记忆撑破了器皿\n还是风\n把记忆\n吹走了",
+    "prompt_token": 64,
+    "generate_token": 30,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "溃刃",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 溃刃<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "溃刃\n\n在夜的深处\n我将自己\n切成无数个\n小小的\n月光\n和黑暗",
+    "prompt_token": 65,
+    "generate_token": 24,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "暴雨",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 暴雨<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "暴雨\n在黑夜中\n我\n是只\n没有翅膀的\n飞鸟",
+    "prompt_token": 65,
+    "generate_token": 18,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "纸溃",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 纸溃<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "纸溃\n在风的缝隙中\n纸张\n如落叶般\n无声\n却沉重\n\n它曾承载的\n是记忆\n还是记忆的碎片",
+    "prompt_token": 65,
+    "generate_token": 34,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "透城",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 透城<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "透城\n\n城穿了孔\n风\n是吹不进的",
+    "prompt_token": 64,
+    "generate_token": 16,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "雨锥",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 雨锥<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "雨锥\n\n在雨的细线中\n我找到了\n丢失的\n针",
+    "prompt_token": 65,
+    "generate_token": 18,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "猫山",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 猫山<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "猫山\n在夜的深处\n我与猫山\n一起沉睡",
+    "prompt_token": 65,
+    "generate_token": 17,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "叶脉",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 叶脉<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "叶脉\n是风的笔\n在叶片上\n写下的\n记忆",
+    "prompt_token": 64,
+    "generate_token": 17,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "寄生",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 寄生<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "寄生在一片叶子上\n汲取着它全部的营养\n直到叶子干枯\n我却开出了花",
+    "prompt_token": 64,
+    "generate_token": 25,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "疏离",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 疏离<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在疏离的边缘\n我看见了\n曾经熟悉的脸庞",
+    "prompt_token": 65,
+    "generate_token": 15,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "人厌",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 人厌<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "他们给我贴上了\n“人厌”的标签",
+    "prompt_token": 64,
+    "generate_token": 11,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "糖幕",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 糖幕<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "糖幕\n在被甜味遮盖的夜晚\n我将自己\n压成一片片\n让它们随风飘落",
+    "prompt_token": 65,
+    "generate_token": 28,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "流放",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 流放<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在被流放的边缘\n我看见了\n曾经熟视无睹的\n颜色",
+    "prompt_token": 64,
+    "generate_token": 20,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "嫉蜜",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 嫉蜜<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "嫉蜜\n甜的令人\n作呕",
+    "prompt_token": 65,
+    "generate_token": 10,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "冻蜂",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 冻蜂<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "冻僵的蜜蜂\n在冬日的指尖\n等待一场\n融化的雪",
+    "prompt_token": 64,
+    "generate_token": 18,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "叶冢",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 叶冢<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在落尽了粉蝶与微风的夜晚\n我将一地的叶\n收集在书页里\n让它们静静的沉睡",
+    "prompt_token": 64,
+    "generate_token": 32,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "无痕",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 无痕<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在无痕的风中\n我飘零碎石\n与记忆\n在无痕的雨中\n我沉睡\n在无痕的夜",
+    "prompt_token": 64,
+    "generate_token": 35,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "冻寂",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 冻寂<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "冻寂\n是被冻死的\n是连同细胞一起\n被冻死的",
+    "prompt_token": 64,
+    "generate_token": 20,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "痛苦",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 痛苦<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "痛苦\n是夜的呼吸\n是风的哭泣\n是被冻死的虫子\n在等待一场雪",
+    "prompt_token": 65,
+    "generate_token": 25,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "气泡",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 气泡<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "气泡\n在升腾的\n是记忆",
+    "prompt_token": 65,
+    "generate_token": 11,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "悬疑",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 悬疑<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在被遗忘的角落\n我拾起一枚\n悬疑的\n硬币",
+    "prompt_token": 64,
+    "generate_token": 18,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "囚笼",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 囚笼<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在被束缚的夜晚\n我将自己\n关进了一个\n透明的\n囚笼",
+    "prompt_token": 64,
+    "generate_token": 20,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "自由",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 自由<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "自由\n是风\n在吹过山谷\n吹过山岗\n吹过人间",
+    "prompt_token": 63,
+    "generate_token": 19,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "褪色",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 褪色<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "褪色的叶子\n在风的笔下\n写给大地的\n一封封信",
+    "prompt_token": 65,
+    "generate_token": 20,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "蝶空",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 蝶空<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "蝶空\n\n在蝶空\n我与影子对视\n倾听风的呢喃\n和远方的呼唤",
+    "prompt_token": 65,
+    "generate_token": 25,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "蒸发",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 蒸发<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "蒸发\n是水的哭泣\n在太阳的嘲笑中\n在风的嘲笑中\n在石头的嘲笑中",
+    "prompt_token": 65,
+    "generate_token": 25,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "呼吸",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 呼吸<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在每一次呼吸中\n我都是一个\n新的\n和\n旧的\n人",
+    "prompt_token": 65,
+    "generate_token": 18,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "雾形",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 雾形<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "雾\n在晨风中\n散开\n如梦\n如幻\n如流\n如歌",
+    "prompt_token": 65,
+    "generate_token": 22,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "虚骸",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 虚骸<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "虚骸，是被风穿透的壳，\n是夜的深处，\n灵魂逃逸，\n留下的轨迹。",
+    "prompt_token": 65,
+    "generate_token": 24,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "气痂",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 气痂<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "气痂\n在被冻伤的夜晚\n我将自己\n压成一片叶子",
+    "prompt_token": 65,
+    "generate_token": 19,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "雪崩",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 雪崩<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "雪崩\n是山峰\n在哭泣",
+    "prompt_token": 65,
+    "generate_token": 10,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "隙裂",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 隙裂<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在被撕裂的缝隙中\n光溜走了\n留下一片片的黑暗",
+    "prompt_token": 65,
+    "generate_token": 18,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "雪屑",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 雪屑<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "雪屑\n在落雪的夜晚\n我将过去碾碎\n让它随风飘落",
+    "prompt_token": 65,
+    "generate_token": 21,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "执消",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 执消<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "执消\n在遗忘的角落\n我\n将记忆\n挤成几滴泪",
+    "prompt_token": 64,
+    "generate_token": 19,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "癌夜",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 癌夜<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在癌夜\n我将自己\n压成一片叶子",
+    "prompt_token": 64,
+    "generate_token": 13,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "噬暗",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 噬暗<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在夜的深处\n我将自己\n切成无数个\n小小的\n月光\n和黑暗",
+    "prompt_token": 65,
+    "generate_token": 21,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "焰湮",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 焰湮<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "焰火\n在黑夜的幕布上\n绘出\n转瞬即逝的\n辉煌\n\n湮灭\n在黎明前\n将一切\n燃烧殆尽",
+    "prompt_token": 65,
+    "generate_token": 35,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "自愈",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 自愈<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在每一次的伤口中\n我都是一个\n新的\n被创造出来的\n人",
+    "prompt_token": 63,
+    "generate_token": 18,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "颅树",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 颅树<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在颅内长出的树\n是思考的根\n它盘旋着\n缠绕着神经\n汲取着\n干涸的泪滴\n和\n未熟的细胞",
+    "prompt_token": 65,
+    "generate_token": 39,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "血树",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 血树<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在被砍伐的森林里\n血树\n是唯一\n站立的\n灵魂",
+    "prompt_token": 64,
+    "generate_token": 19,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "湮灭",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 湮灭<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在余光被吞噬之前\n我将自己\n压缩成一个点",
+    "prompt_token": 65,
+    "generate_token": 16,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "疯星",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 疯星<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "疯星，你将黑夜\n撕裂成无数个\n小小的\n月光\n和黑暗",
+    "prompt_token": 65,
+    "generate_token": 21,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "碎梦",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 碎梦<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "碎梦\n\n在风的缝隙中\n我飘零碎裂\n如一片片叶子",
+    "prompt_token": 65,
+    "generate_token": 22,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "舔伤",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 舔伤<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在夜的深处\n我将伤口\n舔愈",
+    "prompt_token": 65,
+    "generate_token": 12,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "星砂",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 星砂<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "星砂\n在夜的深处\n我将自己\n压成一片片\n如星砂般的\n是夜的泪滴\n还是被遗忘的\n是记忆\n还是记忆的\n碎片",
+    "prompt_token": 64,
+    "generate_token": 42,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "碎辉",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 碎辉<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "碎辉在黑夜中\n将黑夜撕裂\n让每一滴泪\n都得到一颗\n属于自己的\n碎辉",
+    "prompt_token": 65,
+    "generate_token": 26,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "天裂",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 天裂<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "天裂了\n裂缝中漏出的\n是神的泪滴",
+    "prompt_token": 64,
+    "generate_token": 16,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "神默",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 神默<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "神默\n在无尽的等待中\n神\n将自己\n化为一只蝴蝶",
+    "prompt_token": 65,
+    "generate_token": 20,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "海遁",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 海遁<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "海遁\n\n海退潮了\n退到看不见的地方\n它遁走\n藏在了风里",
+    "prompt_token": 64,
+    "generate_token": 23,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "溃宇",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 溃宇<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在溃散的宇宙里\n我飘零碎石块\n和遗忘的角落里\n虫子\n啃噬着\n时间的\n皮囊",
+    "prompt_token": 65,
+    "generate_token": 35,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "噬火",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 噬火<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在燃烧的边缘\n我吞噬了火焰\n将自己\n化为灰烬",
+    "prompt_token": 65,
+    "generate_token": 18,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "蛛泪",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 蛛泪<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "蛛网在一夜之间变得沉重\n那是被露珠压弯了的叹息\n在等待风的来临之前\n它将自己拉成无数根线\n去触碰这个世界的温度\n\n当它遇到刺骨的寒\n眼泪便顺着丝线\n一滴一滴的落下\n直到碰到地面\n直到弹起\n直到消失...",
+    "prompt_token": 65,
+    "generate_token": 74,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "噬足",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 噬足<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "噬足\n在被虫蛀的夜晚\n我将自己\n一口一口\n吃掉",
+    "prompt_token": 65,
+    "generate_token": 20,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "泪暴",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 泪暴<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "泪如洪水\n暴发在眼眶\n浸湿了脸庞",
+    "prompt_token": 64,
+    "generate_token": 16,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "夜烟",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 夜烟<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "夜烟\n在夜的深处\n烟\n是它吐出的\n是它吐出的\n是它吐出的\n是它吐出的\n是它吐出的\n是它吐出的\n是它吐出的\n是它吐出的\n是它吐出的\n是它吐出的\n是它吐出的\n是它吐出的\n是它吐出的\n是它吐出的\n是它吐出的",
+    "prompt_token": 64,
+    "generate_token": 100,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "冻雨",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 冻雨<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "冻雨\n在一夜之间\n将城市\n装扮成\n冰封的\n童话世界",
+    "prompt_token": 64,
+    "generate_token": 20,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "蜷神",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 蜷神<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "蜷神，藏在了风里\n它吹过山谷\n吹过山岗\n吹过人间",
+    "prompt_token": 65,
+    "generate_token": 23,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "烟裾",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 烟裾<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "烟裾\n在升腾的烟雾中\n我看见了\n你飘逸的衣袂",
+    "prompt_token": 65,
+    "generate_token": 22,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "投石",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 投石<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "投石\n在湖面\n在夜的深处",
+    "prompt_token": 64,
+    "generate_token": 12,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "涟漪",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 涟漪<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在湖面\n撒一把盐\n让每一粒\n都开出一朵\n咸味的花",
+    "prompt_token": 65,
+    "generate_token": 21,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "宿浪",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 宿浪<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "宿浪\n在夜的深处\n我将自己\n压成一片叶子",
+    "prompt_token": 64,
+    "generate_token": 17,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "碑文",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 碑文<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在沉默的石上\n我刻下\n爱的痕迹",
+    "prompt_token": 65,
+    "generate_token": 14,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "柿心",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 柿心<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在秋天的画卷里\n我是一枚\n被秋风亲吻过的柿子",
+    "prompt_token": 65,
+    "generate_token": 19,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "赤裸",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 赤裸<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在赤裸的夜晚\n我与影子对视\n倾听风的呢喃\n和远方的呼唤",
+    "prompt_token": 65,
+    "generate_token": 24,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "捧核",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 捧核<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "捧着被抛弃的核\n我却无法\n将自己\n从一颗果实中\n挤出来",
+    "prompt_token": 65,
+    "generate_token": 22,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "溃蜜",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 溃蜜<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "溃蜜\n在被虫蛀的思想里\n挤出的不是汁液\n而是干瘪的\n几滴溃蜜",
+    "prompt_token": 65,
+    "generate_token": 27,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "雨舞",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 雨舞<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "雨在灯下用力飞\n他们在舞蹈\n累到流干最后一滴汗\n直到碰到地上的瞬间之前\n直到消失之前\n他们是彻底自由的",
+    "prompt_token": 65,
+    "generate_token": 34,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "濒死",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 濒死<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在濒死的边缘\n我看见了\n那些\n从未见过的\n颜色",
+    "prompt_token": 65,
+    "generate_token": 18,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "汗翼",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 汗翼<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "汗\n翼\n上\n的\n盐\n\n结晶\n了\n我\n飞\n的\n梦",
+    "prompt_token": 65,
+    "generate_token": 22,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "坠灭",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 坠灭<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在坠灭的边缘\n我看见了\n那些\n从未见过的\n颜色",
+    "prompt_token": 65,
+    "generate_token": 18,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "惊兽",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 惊兽<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "惊兽\n在夜的深处\n我是一只\n被惊吓的\n兽",
+    "prompt_token": 65,
+    "generate_token": 19,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "蜜风",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 蜜风<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "蜜风\n在夜的深处\n我被一只\n看不见的\n手抚摸",
+    "prompt_token": 65,
+    "generate_token": 18,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "土蜷",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 土蜷<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "土中之物，蜷缩着\n等待一场雨\n或一场风",
+    "prompt_token": 64,
+    "generate_token": 17,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "惊笼",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 惊笼<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在惊笼里\n我将自己\n压成一片叶子",
+    "prompt_token": 65,
+    "generate_token": 14,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "蛀脑",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 蛀脑<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "蛀虫\n在啃噬我的脑\n思想\n如落叶般\n枯黄\n凋零",
+    "prompt_token": 65,
+    "generate_token": 21,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "虫洞",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 虫洞<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在虫洞的边缘\n我看见了\n另一个自己",
+    "prompt_token": 65,
+    "generate_token": 13,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "吞星",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 吞星<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在夜的深处\n我将自己\n压成一片片的叶子\n让风\n将我\n吹到\n星的旁边",
+    "prompt_token": 64,
+    "generate_token": 29,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "蚀云",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 蚀云<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "蚀云，是被遗忘在天边的泪滴\n在夜的黑幕下\n静静的流淌\n直到碰到石块\n激起的不是浪花\n而是片片的光",
+    "prompt_token": 65,
+    "generate_token": 41,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "锁喉",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 锁喉<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "锁喉\n是被束缚的\n是沉默的\n是无法呼吸的",
+    "prompt_token": 64,
+    "generate_token": 17,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "喉锈",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 喉锈<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "喉中生锈\n是因为空气中的水分\n和沉默的重量\n都凝结在了一起",
+    "prompt_token": 64,
+    "generate_token": 24,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "根断",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 根断<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "根断了\n树\n还是树\n只是\n它\n要倒了",
+    "prompt_token": 64,
+    "generate_token": 17,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "窒息",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 窒息<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在被束缚的夜晚\n我将自己\n压成一片叶子",
+    "prompt_token": 65,
+    "generate_token": 15,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "捕味",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 捕味<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在风的缝隙中\n我捕捉到\n秋天的味道",
+    "prompt_token": 65,
+    "generate_token": 13,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "旧痂",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 旧痂<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "旧痂\n在伤口愈合的地方\n藏着被撕裂的\n月亮",
+    "prompt_token": 64,
+    "generate_token": 17,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "吞忆",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 吞忆<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "吞下遗忘\n却吐出\n一地的回忆",
+    "prompt_token": 64,
+    "generate_token": 13,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "喉涩",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 喉涩<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "喉中\n藏着一个\n干涸的\n海",
+    "prompt_token": 64,
+    "generate_token": 12,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "静湖",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 静湖<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在静湖畔\n我与影子对视\n倾听风的呢喃\n和远方的呼唤",
+    "prompt_token": 65,
+    "generate_token": 23,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "亵步",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 亵步<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "亵步，是用脚尖\n还是用脚跟\n抑或是\n用灵魂",
+    "prompt_token": 64,
+    "generate_token": 19,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "禁祷",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 禁祷<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在禁祷的夜晚\n我将灵魂\n压成一片叶子",
+    "prompt_token": 65,
+    "generate_token": 15,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "湖刃",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 湖刃<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "湖水如镜，倒映着\n被割裂的\n是夜的黑\n还是月的亮",
+    "prompt_token": 65,
+    "generate_token": 24,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "父力",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 父力<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "父力，是沉默的山\n是夜的黑\n是黎明前\n最深的河",
+    "prompt_token": 65,
+    "generate_token": 22,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "笨毁",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 笨毁<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "笨拙的爱，是毁掉一颗心的武器",
+    "prompt_token": 64,
+    "generate_token": 13,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "骨裂",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 骨裂<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "骨裂\n在沉默中\n在夜的深处\n裂缝\n是光\n是风\n是不知名的\n味道",
+    "prompt_token": 65,
+    "generate_token": 26,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "暴枷",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 暴枷<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "暴风雨\n是被束缚的\n是挣脱不开的\n是逃不掉的\n是藏不住的\n是淋漓尽致的",
+    "prompt_token": 65,
+    "generate_token": 32,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "刀行",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 刀行<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "刀行在夜的边缘\n刃上挑着一颗\n滴落的\n是月光\n还是泪",
+    "prompt_token": 64,
+    "generate_token": 24,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "秋禁",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 秋禁<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "秋天，你被禁止\n被一片片叶子\n叶子的缝隙里\n挤出的都是风",
+    "prompt_token": 64,
+    "generate_token": 22,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "梦塌",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 梦塌<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "梦塌了\n碎石块\n都是\n曾经\n高高在上的\n我",
+    "prompt_token": 65,
+    "generate_token": 19,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "耻途",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 耻途<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在耻途上\n我遇见了\n曾经的自己",
+    "prompt_token": 65,
+    "generate_token": 13,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "腐臭",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 腐臭<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "腐臭的气味\n在空气中蔓延\n我却无法逃离",
+    "prompt_token": 65,
+    "generate_token": 14,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "钝寒",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 钝寒<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "钝寒\n是冰封的泪滴\n在夜的黑幕下\n静静的流淌",
+    "prompt_token": 65,
+    "generate_token": 21,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "雪肋",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 雪肋<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "雪落无声\n在夜的深处\n我将自己\n压成一片雪",
+    "prompt_token": 65,
+    "generate_token": 18,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "冰痂",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 冰痂<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "冰痂\n在伤口上\n开出了\n雪的花",
+    "prompt_token": 64,
+    "generate_token": 14,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "花惧",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 花惧<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "花惧\n在夜的深处\n花儿\n惧怕\n被寒风\n吹散",
+    "prompt_token": 65,
+    "generate_token": 21,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "绿拥",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 绿拥<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "绿拥着我\n我却挣扎着\n想要飞出绿的范围",
+    "prompt_token": 64,
+    "generate_token": 17,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "死孕",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 死孕<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "死孕\n在生与死的缝隙中\n我看见了\n一个\n未出生的\n死人",
+    "prompt_token": 64,
+    "generate_token": 24,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "泪灯",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 泪灯<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在夜的深处\n我将泪滴\n点燃为灯",
+    "prompt_token": 64,
+    "generate_token": 14,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "溃散",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 溃散<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "溃散的不仅是沙粒\n还有风\n和风的哭泣",
+    "prompt_token": 65,
+    "generate_token": 15,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "蜜嫉",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 蜜嫉<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "蜜糖般的甜\n却藏着\n嫉妒的\n刺",
+    "prompt_token": 65,
+    "generate_token": 13,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "死寂",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 死寂<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "死寂\n是被冻僵的泪滴",
+    "prompt_token": 64,
+    "generate_token": 11,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "虚形",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 虚形<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "虚形\n在风中\n我看见了\n那些\n没有\n形状的\n形状",
+    "prompt_token": 65,
+    "generate_token": 20,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "雾人",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 雾人<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在被遗忘的角落\n我\n是雾\n是风\n是无人问津的\n角落",
+    "prompt_token": 65,
+    "generate_token": 22,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "执轻",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 执轻<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "我\n把一只虫\n放在\n掌心",
+    "prompt_token": 64,
+    "generate_token": 11,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "隙消",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 隙消<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在缝隙中\n消失的\n是时间\n是光\n是记忆",
+    "prompt_token": 65,
+    "generate_token": 16,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "血星",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 血星<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在夜的深处\n我将血色的星星\n一颗颗\n数给遗忘",
+    "prompt_token": 64,
+    "generate_token": 19,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "足印",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 足印<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在沙上\n我留下一串\n脚印",
+    "prompt_token": 65,
+    "generate_token": 12,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "冻蜷",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 冻蜷<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "冻蜷在\n被冻死的\n黑夜",
+    "prompt_token": 64,
+    "generate_token": 11,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "神裾",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 神裾<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "神的裙裾\n在风中飘扬\n我却只能\n在它吹过的地方\n闻到\n一丝\n不真实的\n香味",
+    "prompt_token": 65,
+    "generate_token": 31,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "噬云",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 噬云<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "云朵\n在吞噬着\n天空的\n颜色",
+    "prompt_token": 65,
+    "generate_token": 12,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "野花",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 野花<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "野花\n在无人问津的角落\n开的正艳",
+    "prompt_token": 64,
+    "generate_token": 15,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "旧噬",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 旧噬<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "旧噬\n将我碾碎\n让那些\n潜伏在\n黑夜中的\n噬菌体\n吞噬掉\n我\n这个\n被虫蛀了的\n苹果",
+    "prompt_token": 64,
+    "generate_token": 37,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "雪痂",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 雪痂<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "雪痂\n在落雪的夜晚\n我将自己\n压成一片叶子",
+    "prompt_token": 65,
+    "generate_token": 18,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "蚊羽",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 蚊羽<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在夜的深处\n我与蚊羽\n共舞",
+    "prompt_token": 65,
+    "generate_token": 13,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "轮花",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 轮花<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "轮花在夜的深处开放\n花瓣上沾满了\n未干的泪滴",
+    "prompt_token": 65,
+    "generate_token": 19,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "冻神",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 冻神<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "冻神，你冰凉的手指\n在夜的黑幕下\n轻抚过大地\n让一切都静止\n在一片晶莹的泪滴中",
+    "prompt_token": 64,
+    "generate_token": 35,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "碎星",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 碎星<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "碎星\n在夜的深处\n我将自己\n压成一片片\n让它们\n在黎明前\n全部飞走",
+    "prompt_token": 65,
+    "generate_token": 28,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "隐雨",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 隐雨<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "隐雨\n在隐秘的角落\n雨\n是被风\n吹落的泪滴",
+    "prompt_token": 65,
+    "generate_token": 21,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "玻璃",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 玻璃<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "玻璃\n是透明的\n是脆弱的\n是冰冷的\n却也是\n反射光的\n是保护伞\n是隔阂",
+    "prompt_token": 65,
+    "generate_token": 29,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "沉溺",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 沉溺<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在沉溺的边缘\n我看见了\n那些\n从未见过的\n颜色",
+    "prompt_token": 65,
+    "generate_token": 18,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "孕绿",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 孕绿<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在被遗忘的角落\n我\n将一颗心\n压成一片叶子",
+    "prompt_token": 64,
+    "generate_token": 17,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "血烙",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 血烙<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "血色残阳\n将伤口\n开在了\n夜的喉咙",
+    "prompt_token": 64,
+    "generate_token": 16,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "休止",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 休止<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在被割裂的时空里\n我将自己\n压成一片叶子",
+    "prompt_token": 64,
+    "generate_token": 17,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "饲魂",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 饲魂<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在夜的深处\n我将自己\n喂给那些\n饥饿的\n灵魂",
+    "prompt_token": 65,
+    "generate_token": 18,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "透雨",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 透雨<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "透雨\n浸湿了\n大地的\n每一根\n神经",
+    "prompt_token": 64,
+    "generate_token": 15,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "糖灼",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 糖灼<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "糖在指尖融化\n滴落的\n是被虫蛀的思想",
+    "prompt_token": 65,
+    "generate_token": 15,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "褪蝶",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 褪蝶<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "褪蝶\n\n在褪色的翅膀里\n藏着一个\n褪色的\n秘密",
+    "prompt_token": 65,
+    "generate_token": 19,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "蒸空",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 蒸空<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "蒸空\n\n在被蒸干的空气里\n我飘零石头碎石\n和一些细小的虫子",
+    "prompt_token": 65,
+    "generate_token": 30,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "执念",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 执念<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "执念\n是根\n深埋在\n灵魂的\n土壤里",
+    "prompt_token": 64,
+    "generate_token": 16,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "消雪",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 消雪<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "消雪\n在夜的深处\n雪\n在融化\n滴落的\n是记忆",
+    "prompt_token": 64,
+    "generate_token": 20,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "湮焰",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 湮焰<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "湮焰\n\n在被遗忘的角落\n我\n将自己\n吞噬",
+    "prompt_token": 65,
+    "generate_token": 16,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "翼汗",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 翼汗<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "翼汗\n在每一次的展翅与收翼间\n我挥洒着自己的生命\n翼上凝结的\n是夜的泪滴\n还是黎明的汗液",
+    "prompt_token": 65,
+    "generate_token": 38,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "噬星",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 噬星<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "在夜的深处\n我将自己\n吞噬了\n一颗\n又一颗",
+    "prompt_token": 65,
+    "generate_token": 17,
+    "prompt_variant_index": 1
+  },
+  {
+    "title": "暴云",
+    "prompt": "<|im_start|>system 用户会给出一个主题，请按照给定的主题，切实准确简洁且情感丰富地写一首现代诗<|im_end|> <|im_start|>user 暴云<|im_end|> <|im_start|>assistant",
+    "checkpoint_number": 3000,
+    "checkpoint_path": "adapters6/0003000_adapters.safetensors",
+    "body": "暴云\n在天空中\n嘶喊\n直到\n沙哑",
+    "prompt_token": 65,
+    "generate_token": 15,
+    "prompt_variant_index": 1
+  }
+]

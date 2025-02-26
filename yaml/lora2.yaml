@@ -1,0 +1,59 @@
+model: "mlx-community/Qwen2.5-32B-Instruct-8bit"
+train: true
+fine_tune_type: lora
+data: "./data"
+seed: 0
+
+#############################################
+# LoRA coverage: top 12 or 16 layers only
+# Helps keep parameter count + overfitting in check
+#############################################
+num_layers: 12   # or 16. This means "apply LoRA to last 12 (or 16) transformer blocks"
+
+#############################################
+# Training parameters
+#############################################
+batch_size: 4
+iters: 1000      # total steps. (this will already be multiple epochs over 140 lines)
+val_batches: 25
+steps_per_report: 20
+steps_per_eval: 100
+max_seq_length: 256
+grad_checkpoint: false
+
+resume_adapter_file: null
+adapter_path: "adapter_lora2"
+save_every: 200
+test: false
+test_batches: 100
+
+#############################################
+# LoRA config
+#############################################
+lora_parameters:
+  # We recommend Q and V from attention plus the FULL MLP (up, down, gate)
+  keys: [
+    "self_attn.q_proj",
+    "self_attn.v_proj",
+    "mlp.down_proj",
+    "mlp.gate_proj",
+    "mlp.up_proj"
+  ]
+  rank: 4             # smaller rank to reduce chance of overfitting
+  alpha: 8            # typically 2 × rank or 2 × rank^1. a bit lower for small data
+  dropout: 0.2        # higher dropout to fight memorization
+  scale: 8.0          # can match alpha or remain at 8–16
+
+#############################################
+# Learning rate schedule
+#############################################
+# For extremely small data, keep LR modest
+#############################################
+learning_rate: 1e-5
+
+lr_schedule:
+  name: cosine_decay
+  warmup: 50         # ~5% of total steps
+  warmup_init: 1e-7
+  # arguments: [peak_lr, total_steps, final_lr]
+  arguments: [1e-5, 1000, 1e-7]

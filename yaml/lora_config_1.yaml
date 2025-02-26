@@ -1,0 +1,31 @@
+model: "mlx-community/Qwen2.5-7B-Instruct-bf16"
+train: true
+fine_tune_type: lora
+data: "./data"
+seed: 0
+batch_size: 8
+iters: 1000
+val_batches: 25
+learning_rate: 5e-7
+steps_per_report: 10
+steps_per_eval: 100
+resume_adapter_file: null
+adapter_path: "adapters_lora_4"
+save_every: 100
+test: false
+test_batches: 100
+max_seq_length: 2048
+grad_checkpoint: false
+num_layers: 8
+lora_parameters:
+    keys: ["self_attn.q_proj", "self_attn.v_proj", "mlp.down_proj", "mlp.gate_proj", "mlp.up_proj"]
+    rank: 16
+    alpha: 16
+    dropout: 0.05
+    scale: 8.0
+
+lr_schedule:
+    name: cosine_decay
+    warmup: 0
+    warmup_init: 1e-7
+    arguments: [1e-4, 600, 5e-7]

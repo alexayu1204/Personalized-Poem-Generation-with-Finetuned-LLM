@@ -1,0 +1,992 @@
+{
+  "河": [
+    {
+      "title": "河",
+      "checkpoint_number": 200,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "河，是大地的泪痕，\n在石缝间寻找出口，\n在夜的黑中，\n低语着古老的秘密。\n\n它不问归途，\n只向前流，\n带着落花的梦，\n和未说出口的诗。\n\n河，是时间的笔，\n在大地上书写，\n每一滴水都是一个故事，\n等待着被风带走。",
+      "prompt_token": 64,
+      "generate_token": 76,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "河",
+      "checkpoint_number": 600,
+      "checkpoint_path": "adapter_lora2/0000600_adapters.safetensors",
+      "body": "河\n在夜的深处\n我将自己\n化作一只船",
+      "prompt_token": 64,
+      "generate_token": 16,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "干涸": [
+    {
+      "title": "干涸",
+      "checkpoint_number": 401,
+      "checkpoint_path": "adapter_lora2/0000400_adapters.safetensors",
+      "body": "干涸的河床\n沉默不语\n它曾是\n爱的流淌\n现在\n只留下\n沙的泪",
+      "prompt_token": 64,
+      "generate_token": 27,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "干涸",
+      "checkpoint_number": 601,
+      "checkpoint_path": "adapter_lora2/0000600_adapters.safetensors",
+      "body": "干涸的湖床\n是被遗忘的\n一夜之间\n蒸发了梦",
+      "prompt_token": 64,
+      "generate_token": 18,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "虫翅": [
+    {
+      "title": "虫翅",
+      "checkpoint_number": 202,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "在夜的边缘，\n虫翅轻颤，\n是风的低语，\n还是梦的呢喃？\n\n它们在月光下，\n织着细密的网，\n捕捉着光，\n和那些，\n未说出口的，\n秘密。",
+      "prompt_token": 65,
+      "generate_token": 50,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "虫翅",
+      "checkpoint_number": 602,
+      "checkpoint_path": "adapter_lora2/0000600_adapters.safetensors",
+      "body": "虫翅\n在夜的深处\n我展开\n虫的翅\n飞越\n光的边疆",
+      "prompt_token": 65,
+      "generate_token": 23,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "雪峰": [
+    {
+      "title": "雪峰",
+      "checkpoint_number": 203,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "雪峰，静默的守望者，\n在夜的深处，藏匿着光。\n冰封的梦，未融的泪，\n在风中，低语着古老的誓言。\n\n每一粒雪，都是时间的笔触，\n在无尽的白中，书写着沉默的诗篇。\n山的脊梁，是岁月的痕迹，\n在每一次日出日落间，诉说着不变的等待。\n\n雪峰，是梦的起点，\n在寒冷中，藏着温暖的希望。\n每一次攀登，都是对未知的探索，\n在雪的尽头，寻找着生命的答案。",
+      "prompt_token": 65,
+      "generate_token": 125,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "雪峰",
+      "checkpoint_number": 803,
+      "checkpoint_path": "adapter_lora2/0000800_adapters.safetensors",
+      "body": "雪峰，\n在夜的深处，\n我将自己，\n化为一片片雪，\n落在你的肩上，\n融化在你的温度里。",
+      "prompt_token": 65,
+      "generate_token": 30,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "雨": [
+    {
+      "title": "雨",
+      "checkpoint_number": 204,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "雨，是夜的低语，\n在静谧中轻抚着每一寸土地，\n它不急不躁，细数着夜的每一秒，\n在梦与醒的边缘，\n织起一片片透明的网。\n\n它落在叶尖，是叶的泪滴，\n在风中摇曳，诉说着不为人知的秘密，\n每一滴都藏着一个故事，\n在夜的深处，静静流淌。\n\n雨，是记忆的触角，\n在不经意间，触碰着心底最柔软的部分，\n唤醒那些沉睡的瞬间，\n让回忆在湿润中复苏，\n在每一次滴落中，重新绽放。",
+      "prompt_token": 64,
+      "generate_token": 131,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "雨",
+      "checkpoint_number": 1004,
+      "checkpoint_path": "adapter_lora2/0001000_adapters.safetensors",
+      "body": "雨，是夜的呢喃\n在旧日的瓦片上\n细数着流年的泪滴",
+      "prompt_token": 64,
+      "generate_token": 24,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "伞裂": [
+    {
+      "title": "伞裂",
+      "checkpoint_number": 205,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "伞裂\n在雨的缝隙中\n我们寻找\n一片未被触及的\n干涸之地\n\n伞，撑开的\n是记忆的裂痕\n一滴一滴\n落下的\n是遗忘的泪\n\n雨，不再温柔\n它撕裂了\n遮挡的屏障\n让每一滴\n都直击心间",
+      "prompt_token": 64,
+      "generate_token": 72,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "伞裂",
+      "checkpoint_number": 805,
+      "checkpoint_path": "adapter_lora2/0000800_adapters.safetensors",
+      "body": "伞裂，\n在一场没有尽头的雨中，\n我与过去，\n撑一场旧梦。",
+      "prompt_token": 64,
+      "generate_token": 21,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "碎雨": [
+    {
+      "title": "碎雨",
+      "checkpoint_number": 806,
+      "checkpoint_path": "adapter_lora2/0000800_adapters.safetensors",
+      "body": "碎雨\n在被遗忘的角落\n我收集着\n那些\n掉落在黑夜的\n泪滴",
+      "prompt_token": 65,
+      "generate_token": 23,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "碎雨",
+      "checkpoint_number": 206,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "碎雨\n在夜的边缘\n细碎的泪滴\n落向无尽的黑\n每一滴\n都是未说出口的\n秘密",
+      "prompt_token": 65,
+      "generate_token": 32,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "隐线": [
+    {
+      "title": "隐线",
+      "checkpoint_number": 207,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "隐线\n在夜的深处\n我们寻找着\n那些未被言说的\n隐线\n\n它们藏在\n风的低语中\n藏在\n月光的缝隙里\n\n我们是\n被这些线\n轻轻牵动的\n影子\n\n在每一次\n心跳的瞬间\n我们试图\n抓住\n那些\n无形的\n隐线",
+      "prompt_token": 65,
+      "generate_token": 76,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "隐线",
+      "checkpoint_number": 1007,
+      "checkpoint_path": "adapter_lora2/0001000_adapters.safetensors",
+      "body": "隐线\n在被遗忘的角落\n我与影子对视\n它藏着\n未说出口的梦",
+      "prompt_token": 65,
+      "generate_token": 25,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "湖": [
+    {
+      "title": "湖",
+      "checkpoint_number": 808,
+      "checkpoint_path": "adapter_lora2/0000800_adapters.safetensors",
+      "body": "湖\n在一片未被触及的静谧里，\n我将自己，\n投向湖的怀抱，\n让那些未说出口的思绪，\n都化作一只只飞鸟，\n掠过湖面，\n激起一圈圈涟漪，\n那是心事，\n在寻找着，\n栖息的枝头。",
+      "prompt_token": 64,
+      "generate_token": 64,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "湖",
+      "checkpoint_number": 1008,
+      "checkpoint_path": "adapter_lora2/0001000_adapters.safetensors",
+      "body": "湖\n在一片未被触及的静谧里，\n我将自己，\n投向湖的怀抱，\n让那些未说出口的思绪，\n都化作一只只飞鸟，\n掠过湖面，\n在潾潾的光里，\n寻找失散的影子。",
+      "prompt_token": 64,
+      "generate_token": 58,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "莲痂": [
+    {
+      "title": "莲痂",
+      "checkpoint_number": 209,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "在湖的深处\n莲的肌肤上\n落下一枚枚\n沉默的痂\n\n它们是\n未说出口的\n秘密\n是夜晚\n未落下的\n泪滴\n\n在月光下\n它们闪烁\n却无声\n是莲\n对风的\n不语\n\n在夏日的\n某个清晨\n它们\n会随风\n散去\n留下\n一片\n清新的\n记忆",
+      "prompt_token": 65,
+      "generate_token": 85,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "莲痂",
+      "checkpoint_number": 1009,
+      "checkpoint_path": "adapter_lora2/0001000_adapters.safetensors",
+      "body": "莲在一夜之间\n开尽了所有的花\n花瓣上\n是月的泪\n是风的痂",
+      "prompt_token": 65,
+      "generate_token": 24,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "刺骨": [
+    {
+      "title": "刺骨",
+      "checkpoint_number": 810,
+      "checkpoint_path": "adapter_lora2/0000800_adapters.safetensors",
+      "body": "刺骨的风\n在夜的深处\n吹落了\n一颗星",
+      "prompt_token": 64,
+      "generate_token": 17,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "刺骨",
+      "checkpoint_number": 410,
+      "checkpoint_path": "adapter_lora2/0000400_adapters.safetensors",
+      "body": "刺骨的风\n在夜晚\n撕裂了\n梦的边缘",
+      "prompt_token": 64,
+      "generate_token": 16,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "轮痕": [
+    {
+      "title": "轮痕",
+      "checkpoint_number": 1011,
+      "checkpoint_path": "adapter_lora2/0001000_adapters.safetensors",
+      "body": "轮痕\n是车轮与大地的呢喃\n在沉默的夜晚\n一遍遍压过记忆的边沿",
+      "prompt_token": 65,
+      "generate_token": 26,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "轮痕",
+      "checkpoint_number": 811,
+      "checkpoint_path": "adapter_lora2/0000800_adapters.safetensors",
+      "body": "轮痕\n是车轮与大地的呢喃\n在沉默的夜晚\n细语着不为人知的梦",
+      "prompt_token": 65,
+      "generate_token": 26,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "冬至": [
+    {
+      "title": "冬至",
+      "checkpoint_number": 212,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "冬至，夜的长舌\n舔舐着每一寸光\n在最深的黑里\n藏着一颗\n未融的冰心\n\n雪，是夜的笔\n在白纸上\n勾勒着\n那些未说出口的\n秘密\n\n风，是冬的信使\n带着寒意\n却藏着\n温暖的\n期许",
+      "prompt_token": 64,
+      "generate_token": 75,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "冬至",
+      "checkpoint_number": 612,
+      "checkpoint_path": "adapter_lora2/0000600_adapters.safetensors",
+      "body": "冬至，一夜之间\n白昼把光都给了黑夜\n我\n在冰凉的月光下\n寻找遗失的温度",
+      "prompt_token": 64,
+      "generate_token": 30,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "积雪": [
+    {
+      "title": "积雪",
+      "checkpoint_number": 813,
+      "checkpoint_path": "adapter_lora2/0000800_adapters.safetensors",
+      "body": "积雪\n在夜的深处\n我将自己\n压成一片\n薄薄的\n积雪",
+      "prompt_token": 64,
+      "generate_token": 23,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "积雪",
+      "checkpoint_number": 613,
+      "checkpoint_path": "adapter_lora2/0000600_adapters.safetensors",
+      "body": "积雪\n在夜的深处\n我将自己\n压成一片\n积雪",
+      "prompt_token": 64,
+      "generate_token": 19,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "惧融": [
+    {
+      "title": "惧融",
+      "checkpoint_number": 214,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "惧融\n\n在夜的深处\n我与影子对峙\n它吞噬着光\n我惧怕\n那无尽的黑暗\n\n直到\n一滴泪\n融化了\n冰封的恐惧\n\n在泪光中\n我看见了\n光的形状\n它在融化\n我心中的寒冰",
+      "prompt_token": 65,
+      "generate_token": 66,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "惧融",
+      "checkpoint_number": 614,
+      "checkpoint_path": "adapter_lora2/0000600_adapters.safetensors",
+      "body": "惧融\n在冰封的湖面\n我轻轻踏过\n每一步\n都是对未知的\n试探\n\n冰块\n在脚下\n细语着\n融化成\n不知名的液体",
+      "prompt_token": 65,
+      "generate_token": 42,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "征服": [
+    {
+      "title": "征服",
+      "checkpoint_number": 215,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "在夜的深处\n我将自己\n折叠成星\n藏进黑暗的缝隙\n\n等待\n黎明的刀锋\n将我\n从夜的皮囊中\n一刀一刀\n剥落\n\n直到\n我成为\n光的俘虏",
+      "prompt_token": 64,
+      "generate_token": 52,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "征服",
+      "checkpoint_number": 815,
+      "checkpoint_path": "adapter_lora2/0000800_adapters.safetensors",
+      "body": "在夜的深处\n我将自己\n压成一片叶子\n让风\n将我吹向未知的远方",
+      "prompt_token": 64,
+      "generate_token": 25,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "寒潮": [
+    {
+      "title": "寒潮",
+      "checkpoint_number": 816,
+      "checkpoint_path": "adapter_lora2/0000800_adapters.safetensors",
+      "body": "寒潮，是夜的使者\n它带着冰的吻\n亲吻每一根神经\n让人战栗，让人清醒",
+      "prompt_token": 64,
+      "generate_token": 27,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "寒潮",
+      "checkpoint_number": 216,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "寒潮\n从远方的山巅\n携带着夜的冷\n它来\n不带一丝温柔\n\n它掠过\n枯黄的叶\n颤抖着\n在风中\n寻找最后的温暖\n\n寒潮\n是夜的使者\n它带来\n冰的吻\n让梦\n在寒冷中\n沉睡",
+      "prompt_token": 64,
+      "generate_token": 69,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "死蕾": [
+    {
+      "title": "死蕾",
+      "checkpoint_number": 217,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "死蕾\n\n在枯萎的枝头，\n藏着未绽放的梦，\n死蕾，沉默的守望者，\n在风中低语，\n等待着，\n那永不归来的春天。",
+      "prompt_token": 64,
+      "generate_token": 41,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "死蕾",
+      "checkpoint_number": 617,
+      "checkpoint_path": "adapter_lora2/0000600_adapters.safetensors",
+      "body": "死蕾\n在一夜的风后\n凋零的不只是叶子\n还有那些\n未曾绽放的梦",
+      "prompt_token": 64,
+      "generate_token": 23,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "汁絮": [
+    {
+      "title": "汁絮",
+      "checkpoint_number": 1018,
+      "checkpoint_path": "adapter_lora2/0001000_adapters.safetensors",
+      "body": "汁液滴落，\n在夜晚的角落，\n是风的呢喃，\n是叶的细语，\n汁，\n在黑的画卷上，\n绘出，\n一颗心的形状。",
+      "prompt_token": 65,
+      "generate_token": 39,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "汁絮",
+      "checkpoint_number": 818,
+      "checkpoint_path": "adapter_lora2/0000800_adapters.safetensors",
+      "body": "汁液滴落，\n在夜晚的角落，\n是风的呢喃，\n是叶的细语，\n汁，\n是夜的泪，\n絮，\n是梦的羽。",
+      "prompt_token": 65,
+      "generate_token": 37,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "冻绿": [
+    {
+      "title": "冻绿",
+      "checkpoint_number": 219,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "冻绿，是冬日的梦\n在冰封的湖面下\n藏着未醒的绿意\n\n它不言不语\n却在最冷的夜里\n悄悄生长\n\n冻绿，是沉默的诗人\n在雪的白纸上\n写下未干的诗句",
+      "prompt_token": 64,
+      "generate_token": 60,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "冻绿",
+      "checkpoint_number": 419,
+      "checkpoint_path": "adapter_lora2/0000400_adapters.safetensors",
+      "body": "冻绿，是冬日的泪滴\n在一夜之间\n凝结成的梦",
+      "prompt_token": 64,
+      "generate_token": 20,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "风巢": [
+    {
+      "title": "风巢",
+      "checkpoint_number": 220,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "在风的巢穴里，\n藏着无数个夜晚的梦，\n它们轻盈地飞舞，\n在无边的黑暗中寻找光的缝隙。\n\n风巢，是流浪者的家，\n在它温暖的怀抱中，\n每一粒尘埃都有名字，\n每一阵风都带着故事。\n\n它不说话，\n却在每一个寂静的夜晚，\n用它那无形的手，\n轻轻拂过每一颗孤独的心。",
+      "prompt_token": 65,
+      "generate_token": 87,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "风巢",
+      "checkpoint_number": 820,
+      "checkpoint_path": "adapter_lora2/0000800_adapters.safetensors",
+      "body": "风巢，\n是风的家，\n藏在云的缝隙里，\n藏着梦与远方。",
+      "prompt_token": 65,
+      "generate_token": 21,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "空巢": [
+    {
+      "title": "空巢",
+      "checkpoint_number": 221,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "空巢\n\n在风的缝隙中，\n藏着一个空巢，\n它等待着，\n等待着归来的翅膀。\n\n夜，是它的被，\n星，是它的灯，\n在寂静的夜里，\n它数着时间的落英。\n\n风，是它的歌，\n雨，是它的泪，\n在无人的角落，\n它守着一份期待。\n\n直到有一天，\n翅膀划破了夜的寂静，\n空巢不再空，\n它拥有了，\n比风更轻的梦。",
+      "prompt_token": 65,
+      "generate_token": 100,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "空巢",
+      "checkpoint_number": 421,
+      "checkpoint_path": "adapter_lora2/0000400_adapters.safetensors",
+      "body": "空巢\n在夜的深处\n我是一只飞鸟\n飞过城市的灯火\n却找不到\n一个可以栖息的巢\n\n家\n曾经是温暖的代名词\n现在\n却只是一间\n装满回忆的壳\n\n风\n从四面八方涌来\n带着\n不属于我的味道",
+      "prompt_token": 65,
+      "generate_token": 67,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "虚美": [
+    {
+      "title": "虚美",
+      "checkpoint_number": 822,
+      "checkpoint_path": "adapter_lora2/0000800_adapters.safetensors",
+      "body": "在虚美的画卷里，\n我用想象的笔，\n蘸取夜的黑，\n在白昼的纸上，\n绘出一片片，\n不真实的，\n却令人心动的，\n颜色。",
+      "prompt_token": 65,
+      "generate_token": 41,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "虚美",
+      "checkpoint_number": 622,
+      "checkpoint_path": "adapter_lora2/0000600_adapters.safetensors",
+      "body": "在虚美的画卷里，\n我用想象的笔，\n蘸取了夜的黑，\n和黎明前的光。",
+      "prompt_token": 65,
+      "generate_token": 26,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "树尖": [
+    {
+      "title": "树尖",
+      "checkpoint_number": 623,
+      "checkpoint_path": "adapter_lora2/0000600_adapters.safetensors",
+      "body": "树尖\n是风的笔\n在夜的宣纸上\n轻轻一点\n溅开的\n是星的泪",
+      "prompt_token": 64,
+      "generate_token": 26,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "树尖",
+      "checkpoint_number": 223,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "树尖\n触碰着\n云的边缘\n\n在风中\n它轻声细语\n与过往的风\n交换秘密\n\n夜幕降临\n树尖\n是夜的笔尖\n在星河中\n轻轻一划",
+      "prompt_token": 64,
+      "generate_token": 51,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "死亡": [
+    {
+      "title": "死亡",
+      "checkpoint_number": 224,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "死亡\n是夜的尽头\n是风的归宿\n是叶落的静默\n是雪融的泪滴\n\n它不言不语\n却让生命\n在每一次呼吸中\n都闪烁着光",
+      "prompt_token": 64,
+      "generate_token": 47,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "死亡",
+      "checkpoint_number": 624,
+      "checkpoint_path": "adapter_lora2/0000600_adapters.safetensors",
+      "body": "死亡\n是夜的呼吸\n在黎明前\n静静的\n收集着\n我们的梦",
+      "prompt_token": 64,
+      "generate_token": 20,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "残阳": [
+    {
+      "title": "残阳",
+      "checkpoint_number": 625,
+      "checkpoint_path": "adapter_lora2/0000600_adapters.safetensors",
+      "body": "残阳\n在被遗忘的角落，\n我与余晖对视，\n它将最后一抹热情，\n洒在我的脚尖，\n我却不敢触碰，\n怕这温度，\n会将我冰封的过去，\n全部融化。",
+      "prompt_token": 65,
+      "generate_token": 49,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "残阳",
+      "checkpoint_number": 425,
+      "checkpoint_path": "adapter_lora2/0000400_adapters.safetensors",
+      "body": "残阳\n在被遗忘的角落，\n我与余晖对视，\n它将我吞噬，\n连同那些未说出口的梦。",
+      "prompt_token": 65,
+      "generate_token": 31,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "火舌": [
+    {
+      "title": "火舌",
+      "checkpoint_number": 626,
+      "checkpoint_path": "adapter_lora2/0000600_adapters.safetensors",
+      "body": "火舌\n在夜的深处\n我与火焰对视\n它舔舐着黑暗\n我吞咽着光",
+      "prompt_token": 65,
+      "generate_token": 26,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "火舌",
+      "checkpoint_number": 426,
+      "checkpoint_path": "adapter_lora2/0000400_adapters.safetensors",
+      "body": "火舌\n在夜的深处\n我吞下了一颗星\n它在胃里\n化作一束\n不灭的\n火舌",
+      "prompt_token": 65,
+      "generate_token": 32,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "灰祭": [
+    {
+      "title": "灰祭",
+      "checkpoint_number": 627,
+      "checkpoint_path": "adapter_lora2/0000600_adapters.safetensors",
+      "body": "灰在风中飘零\n是故人留下的记忆\n它轻\n却压的我喘不过气\n\n灰落在湖面\n泛起一圈圈的思念\n它冷\n却让我感到无比的温暖\n\n灰在黑夜中闪烁\n是星星掉落后留下的泪\n它亮\n却刺痛了我的眼\n\n灰是祭\n是给那些离开的人\n是给那些未完成的梦",
+      "prompt_token": 65,
+      "generate_token": 88,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "灰祭",
+      "checkpoint_number": 427,
+      "checkpoint_path": "adapter_lora2/0000400_adapters.safetensors",
+      "body": "灰在风中飘散\n落尽了颜色\n只留白与黑的边界\n在记忆的边缘\n轻轻一碰\n就碎了一地",
+      "prompt_token": 65,
+      "generate_token": 34,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "呼吸机": [
+    {
+      "title": "呼吸机",
+      "checkpoint_number": 828,
+      "checkpoint_path": "adapter_lora2/0000800_adapters.safetensors",
+      "body": "在夜晚的深处\n我与机器同眠\n它吐出的\n是冰冷的风\n还是带温度的希望",
+      "prompt_token": 66,
+      "generate_token": 27,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "呼吸机",
+      "checkpoint_number": 228,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "在夜晚的边缘，\n我与呼吸机对话，\n它轻声细语，\n却带着冰冷的机械感。\n\n每一次的呼吸，\n都是对生命的坚持，\n在寂静中，\n我寻找着温暖的痕迹。\n\n它不眠不休，\n守护着我，\n在梦与现实之间，\n是它，让我得以继续前行。",
+      "prompt_token": 66,
+      "generate_token": 69,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "续命": [
+    {
+      "title": "续命",
+      "checkpoint_number": 829,
+      "checkpoint_path": "adapter_lora2/0000800_adapters.safetensors",
+      "body": "我们吞下夜晚\n吞下星月和一切光\n只为在黎明前\n将黑暗\n全部吐出",
+      "prompt_token": 64,
+      "generate_token": 25,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "续命",
+      "checkpoint_number": 229,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "在夜的深处\n我吞下\n一颗颗\n名为时间的药丸\n\n它们在胃里\n发酵\n膨胀\n直至\n撑破\n那层\n名为生命的薄膜\n\n我试图\n在每一滴\n流逝的\n血液中\n寻找\n续命的\n线索\n\n但\n它们\n都\n在\n逃逸\n在\n寻找\n新的\n栖息地\n\n我\n在\n无尽的\n黑暗中\n呼唤\n那些\n曾经\n给予\n我\n光的\n名字",
+      "prompt_token": 64,
+      "generate_token": 107,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "噬心": [
+    {
+      "title": "噬心",
+      "checkpoint_number": 630,
+      "checkpoint_path": "adapter_lora2/0000600_adapters.safetensors",
+      "body": "心被吞噬的夜晚，\n我将自己埋在冰冷的月光下，\n让每一颗星星都见证我的痛苦。",
+      "prompt_token": 65,
+      "generate_token": 27,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "噬心",
+      "checkpoint_number": 230,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "在夜的深处\n我将自己\n撕成一片片\n让黑暗吞噬\n\n心，被咬碎\n在无尽的黑夜里\n寻找着\n一丝光的痕迹\n\n每一口\n都是痛的\n却也\n是生的渴望",
+      "prompt_token": 65,
+      "generate_token": 54,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "锈蚀": [
+    {
+      "title": "锈蚀",
+      "checkpoint_number": 231,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "锈蚀在夜的边缘\n啃食着记忆的边角\n每一滴落下的雨\n都是它无声的泪\n\n铁的沉默\n被时间的细针\n一针一线缝补\n直到连缝线都消失\n\n在月光下\n那些曾经锋利的边缘\n如今只留下\n一片模糊的影子",
+      "prompt_token": 64,
+      "generate_token": 72,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "锈蚀",
+      "checkpoint_number": 831,
+      "checkpoint_path": "adapter_lora2/0000800_adapters.safetensors",
+      "body": "锈蚀\n在遗忘的角落\n铁\n静静的\n等待着\n时间的\n泪滴",
+      "prompt_token": 64,
+      "generate_token": 22,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "忍冬": [
+    {
+      "title": "忍冬",
+      "checkpoint_number": 432,
+      "checkpoint_path": "adapter_lora2/0000400_adapters.safetensors",
+      "body": "忍冬，是冬的忍者\n在冰的缝隙中\n寻找一丝未被冻结的绿意\n\n它不问归期\n只在一夜之间\n让雪白的大地\n开满不知名的花",
+      "prompt_token": 64,
+      "generate_token": 47,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "忍冬",
+      "checkpoint_number": 232,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "忍冬在风中\n沉默的守望者\n等待着\n冰雪消融的那一刻\n\n它不言不语\n却在寒风中\n绽放着\n属于自己的\n坚韧与希望",
+      "prompt_token": 64,
+      "generate_token": 43,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "心坠": [
+    {
+      "title": "心坠",
+      "checkpoint_number": 1033,
+      "checkpoint_path": "adapter_lora2/0001000_adapters.safetensors",
+      "body": "心坠落的地方\n开满带刺的花\n在夜的田野里\n静静的发芽",
+      "prompt_token": 64,
+      "generate_token": 23,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "心坠",
+      "checkpoint_number": 433,
+      "checkpoint_path": "adapter_lora2/0000400_adapters.safetensors",
+      "body": "心坠\n沉入无尽的黑夜\n在冰冷的星河中漂泊\n\n它寻找着光\n却只触碰到寒冰\n每一次闪烁\n都是未说出口的呼唤",
+      "prompt_token": 64,
+      "generate_token": 41,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "白洞": [
+    {
+      "title": "白洞",
+      "checkpoint_number": 234,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "在宇宙的边缘，\n白洞轻启，\n吐出光与希望，\n将黑暗吞噬。\n\n它不吞噬，\n它给予，\n给予一切未完成的梦，\n给予一切未绽放的花。\n\n在白洞的光芒中，\n时间静止，\n空间弯曲，\n一切归于纯粹。\n\n它不藏匿，\n它敞开，\n敞开一切未知的可能，\n敞开一切未触及的未来。\n\n白洞，是宇宙的诗人，\n在无尽的黑暗中，\n书写着光明的诗篇，\n每一行都是新的开始。",
+      "prompt_token": 64,
+      "generate_token": 110,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "白洞",
+      "checkpoint_number": 434,
+      "checkpoint_path": "adapter_lora2/0000400_adapters.safetensors",
+      "body": "白洞\n在无尽的黑暗中沉睡，\n我等待着，\n等待着被光唤醒的瞬间。\n\n它来了，\n带着撕裂一切的温柔，\n将我吞噬，\n又将我释放。\n\n我飞向未知，\n在白洞的边缘，\n寻找失散的自己，\n和那些遗落的梦。",
+      "prompt_token": 64,
+      "generate_token": 68,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "深渊": [
+    {
+      "title": "深渊",
+      "checkpoint_number": 435,
+      "checkpoint_path": "adapter_lora2/0000400_adapters.safetensors",
+      "body": "在无尽的黑里沉睡，\n我沉入了深渊，\n那里没有光，\n没有温暖，\n没有希望的呼唤。\n\n我沉入了，\n沉入了无尽的黑，\n沉入了没有边界的痛苦，\n沉入了连风都不愿触碰的角落。\n\n但在这片黑暗中，\n我却看见了光，\n那是我从未见过的，\n比白日更耀眼的光，\n它来自我内心，\n照亮了我，\n让我知道，\n即使在最深的黑暗中，\n我也不是完全的黑，\n我还有光，\n我还有希望。",
+      "prompt_token": 65,
+      "generate_token": 121,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "深渊",
+      "checkpoint_number": 235,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "在深渊的边缘，\n我丢下了一颗石子，\n它沉入无尽的黑暗，\n没有回声，没有光。\n\n我等待着，\n等待着深渊的回应，\n却只听到风的低语，\n和我心跳的回响。\n\n我伸出手，\n试图抓住什么，\n却只触碰到冰冷的空气，\n和我自己的影子。\n\n在深渊的深处，\n藏着我未曾见过的自己，\n一个被遗忘的梦，\n和未说出口的告别。\n\n我闭上眼，\n让黑暗将我吞噬，\n在无尽的沉寂中，\n寻找着失去的光。",
+      "prompt_token": 65,
+      "generate_token": 126,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "蝶刃": [
+    {
+      "title": "蝶刃",
+      "checkpoint_number": 636,
+      "checkpoint_path": "adapter_lora2/0000600_adapters.safetensors",
+      "body": "蝶刃，\n在夜的深处，\n切开黑暗，\n让月光流成河。",
+      "prompt_token": 65,
+      "generate_token": 20,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "蝶刃",
+      "checkpoint_number": 236,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "在夜的深处\n我将梦\n切成蝶的形状\n每一刀\n都是对光的渴望\n\n它们在黑暗中\n寻找着\n不属于自己的\n一片光亮\n\n锋利的刃\n在每一次\n切割中\n都滴落着\n未说出口的\n爱与哀愁",
+      "prompt_token": 65,
+      "generate_token": 64,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "蝶散": [
+    {
+      "title": "蝶散",
+      "checkpoint_number": 237,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "蝶散\n在风的边缘\n翅膀轻轻触碰\n夜的寂静\n\n它们\n在月光下\n寻找\n失去的梦\n\n一片一片\n散落的光\n在黑暗中\n寻找归途",
+      "prompt_token": 65,
+      "generate_token": 46,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "蝶散",
+      "checkpoint_number": 837,
+      "checkpoint_path": "adapter_lora2/0000800_adapters.safetensors",
+      "body": "蝶散，\n在一夜的风后，\n花瓣落尽，\n留下的，\n是片片的，\n曾经的梦。",
+      "prompt_token": 65,
+      "generate_token": 26,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "器离": [
+    {
+      "title": "器离",
+      "checkpoint_number": 238,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "器离\n\n器离，是夜的告别，\n在月的边缘，轻轻一划，\n留下一道，不规则的伤疤。\n\n它不说话，沉默是它的语言，\n在风中，轻轻摇晃，\n等待，一个不再回来的夜晚。\n\n它曾是，一个温暖的家，\n藏着，未说出口的梦，\n现在，只是一块，冰冷的石头，\n在无人问津的角落，静静等待，\n等待，一个永远不会到来的归人。",
+      "prompt_token": 64,
+      "generate_token": 101,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "器离",
+      "checkpoint_number": 838,
+      "checkpoint_path": "adapter_lora2/0000800_adapters.safetensors",
+      "body": "机器的呼吸\n是冰冷的风\n在夜晚\n它吞噬着光",
+      "prompt_token": 64,
+      "generate_token": 17,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "溃刃": [
+    {
+      "title": "溃刃",
+      "checkpoint_number": 239,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "溃刃\n\n在夜的深处\n刀刃溃烂\n滴落的\n是记忆的脓血\n\n曾经的锋利\n如今只余\n冰冷的\n绝望的呼唤\n\n它在寻找\n一个伤口\n一个可以\n再次撕裂的\n灵魂的缺口",
+      "prompt_token": 65,
+      "generate_token": 58,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "溃刃",
+      "checkpoint_number": 839,
+      "checkpoint_path": "adapter_lora2/0000800_adapters.safetensors",
+      "body": "溃刃\n在风的缝隙中\n我将自己\n挤成一条\n细长的\n冰凘",
+      "prompt_token": 65,
+      "generate_token": 24,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "暴雨": [
+    {
+      "title": "暴雨",
+      "checkpoint_number": 440,
+      "checkpoint_path": "adapter_lora2/0000400_adapters.safetensors",
+      "body": "暴雨\n在夜的深处\n我与你对峙\n你带着雷的嘶吼\n和光的利剑",
+      "prompt_token": 65,
+      "generate_token": 26,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "暴雨",
+      "checkpoint_number": 240,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "暴雨\n在夜的深处\n撕裂了\n每一寸\n沉睡的\n空气\n\n它\n带着\n愤怒的\n呼啸\n冲刷\n着\n每一颗\n被遗忘的\n心",
+      "prompt_token": 65,
+      "generate_token": 44,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "纸溃": [
+    {
+      "title": "纸溃",
+      "checkpoint_number": 441,
+      "checkpoint_path": "adapter_lora2/0000400_adapters.safetensors",
+      "body": "纸溃，\n在一夜的风中，\n那些未干的泪，\n与墨一起，\n沉睡在了，\n黎明前的黑暗里。",
+      "prompt_token": 65,
+      "generate_token": 31,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "纸溃",
+      "checkpoint_number": 841,
+      "checkpoint_path": "adapter_lora2/0000800_adapters.safetensors",
+      "body": "纸片在风中飘零，\n被撕裂的不只是边缘，\n是记忆，\n是曾经的温度，\n是那些压根没机会干透的泪。",
+      "prompt_token": 65,
+      "generate_token": 35,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "透城": [
+    {
+      "title": "透城",
+      "checkpoint_number": 242,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "透城\n在夜的缝隙中\n光，挤出一条细缝\n穿透了\n沉睡的城\n\n每一扇窗\n都是一个故事\n有的亮着\n有的暗着\n透出的\n是生活的温度\n\n风，轻轻吹过\n带走了\n一些秘密\n和未说出口的\n思念\n\n透城\n是光与影的对话\n是夜与昼的交替\n是每一个\n未眠人\n心中的\n一盏灯",
+      "prompt_token": 64,
+      "generate_token": 99,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "透城",
+      "checkpoint_number": 642,
+      "checkpoint_path": "adapter_lora2/0000600_adapters.safetensors",
+      "body": "城在一夜之间\n被一夜的雨\n彻底洗透\n每一滴水\n都是从远方\n飞来的\n带着未名的\n故事",
+      "prompt_token": 64,
+      "generate_token": 32,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "雨锥": [
+    {
+      "title": "雨锥",
+      "checkpoint_number": 243,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "雨锥，是夜的笔尖\n在无边的黑幕上\n滴落着墨色的泪\n\n每一滴，都是\n未说出口的\n秘密\n\n它们，轻敲着\n沉睡的窗\n唤醒了\n梦中沉睡的\n记忆",
+      "prompt_token": 65,
+      "generate_token": 59,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "雨锥",
+      "checkpoint_number": 643,
+      "checkpoint_path": "adapter_lora2/0000600_adapters.safetensors",
+      "body": "雨锥，\n是夜的泪滴，\n在黑暗中，\n寻找着，\n失散的光。",
+      "prompt_token": 65,
+      "generate_token": 22,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ],
+  "猫山": [
+    {
+      "title": "猫山",
+      "checkpoint_number": 244,
+      "checkpoint_path": "adapter_lora2/0000200_adapters.safetensors",
+      "body": "猫山\n藏匿在夜的深处\n月光下\n是无数双\n闪烁的眼睛\n\n它们\n轻盈地跃过\n每一根\n沉默的枝桠\n在风中\n低语着\n不为人知的秘密\n\n山的轮廓\n在晨雾中\n渐渐模糊\n只留下\n一地\n未解的谜",
+      "prompt_token": 65,
+      "generate_token": 73,
+      "prompt_variant_index": 1,
+      "minimized": true
+    },
+    {
+      "title": "猫山",
+      "checkpoint_number": 444,
+      "checkpoint_path": "adapter_lora2/0000400_adapters.safetensors",
+      "body": "猫山\n在猫山的夜晚\n月光是流浪的猫\n轻舔着每一颗\n被遗忘的石子",
+      "prompt_token": 65,
+      "generate_token": 28,
+      "prompt_variant_index": 1,
+      "minimized": true
+    }
+  ]
+}
